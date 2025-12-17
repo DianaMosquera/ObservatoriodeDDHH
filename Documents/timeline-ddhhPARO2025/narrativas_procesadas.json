@@ -1,0 +1,1137 @@
+{
+  "metadata": {
+    "generado": "2025-12-17T12:37:33.663971",
+    "version": "1.0",
+    "fuente": "narrativa2025.csv",
+    "total_narrativas": 68,
+    "total_comparaciones": 30
+  },
+  "estadisticas": {
+    "por_cuenta": {
+      "FFAA": 65,
+      "Policía Nacional": 3
+    },
+    "top_ideas_fuerza": [
+      {
+        "idea": "Traslado sede de gobierno a Latacunga",
+        "total": 1
+      },
+      {
+        "idea": "uso legítimo a los diferentes niveles del uso de la fuerza, con el empleo de armamento NO letal",
+        "total": 1
+      },
+      {
+        "idea": "Patrullaje y controles militares, prevención de actos delictivos",
+        "total": 1
+      },
+      {
+        "idea": "Posicionar discurso de seguridad ciudadana. También posicionan derechos",
+        "total": 1
+      },
+      {
+        "idea": "Posicionar discursos securitistas",
+        "total": 1
+      },
+      {
+        "idea": "Posicionar el discurso de proteger infraestructura crítica y asegurar el libre trásito.\n\nHablan de paz y soberanía nacional",
+        "total": 1
+      },
+      {
+        "idea": "Libre tránsito.\nProteger derechos y libertades",
+        "total": 1
+      },
+      {
+        "idea": "Asegurar el derecho a la libre movilidad",
+        "total": 1
+      },
+      {
+        "idea": "Evacacuaciones aeromédicas",
+        "total": 1
+      },
+      {
+        "idea": "Posicionan respeto a los derechos humanos",
+        "total": 1
+      }
+    ],
+    "top_lugares": [
+      {
+        "lugar": "Imbabura",
+        "total": 23
+      },
+      {
+        "lugar": "Pichincha",
+        "total": 13
+      },
+      {
+        "lugar": "Sin especificar el área de intervención",
+        "total": 10
+      },
+      {
+        "lugar": "Carchi",
+        "total": 3
+      },
+      {
+        "lugar": "Azuay",
+        "total": 3
+      },
+      {
+        "lugar": "Chimborazo",
+        "total": 3
+      },
+      {
+        "lugar": "Cotopaxi",
+        "total": 2
+      },
+      {
+        "lugar": "Pastaza",
+        "total": 2
+      },
+      {
+        "lugar": "Cañar",
+        "total": 2
+      },
+      {
+        "lugar": "Todo el territorio",
+        "total": 1
+      }
+    ]
+  },
+  "comparaciones": [
+    {
+      "fecha": "2025-09-22",
+      "dia": "1",
+      "lugar": "Imbabura",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "#Pastaza |  Con el firme compromiso de precautelar la soberanía y mantener el orden público, Fuerzas Armadas del Ecuador desplegaron personal militar en puntos estratégicos de Pastaza y Napo, en el marco de las recientes manifestaciones sociales.\r\nLas operaciones militares buscan garantizar la tranq...",
+        "idea_fuerza": "Posicionar el discurso de proteger infraestructura crítica y asegurar el libre trásito.\n\nHablan de paz y soberanía nacional",
+        "fuente": "https://x.com/FFAAECUADOR/status/1970236571426136079"
+      },
+      "realidad_documentada": {
+        "titulo": "Incio del paro naciónal convocado por la CONAIE",
+        "resumen": "Varias comunidades de Imbabura se sumaron al paro convocado por la CONAIE. Varias vías están cerradas en la provincia.\nAdemás, se registra el bloqueo de cuentas de dos personas defensoras de derechos humanos.\n\nContexto:\nMencionar qué otras causas de descontento se han conjugado para anunciar el paro naciónal.",
+        "categoria": "anuncio",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-22",
+      "dia": "1",
+      "lugar": "Imbabura",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "#Pastaza |  Con el firme compromiso de precautelar la soberanía y mantener el orden público, Fuerzas Armadas del Ecuador desplegaron personal militar en puntos estratégicos de Pastaza y Napo, en el marco de las recientes manifestaciones sociales.\r\nLas operaciones militares buscan garantizar la tranq...",
+        "idea_fuerza": "Posicionar el discurso de proteger infraestructura crítica y asegurar el libre trásito.\n\nHablan de paz y soberanía nacional",
+        "fuente": "https://x.com/FFAAECUADOR/status/1970236571426136079"
+      },
+      "realidad_documentada": {
+        "titulo": "Policía reprime a manifestantes en San Pablo en la provincia de Imbabura, así como en Cayambe, San Miguel del Común en Pichincha",
+        "resumen": "Se registraron fuertes enfrentamientos entre militares y policías en contra de los manifestantes que paralizaron la circulación de la vía E35 en Imbabura. Manifestaciónes se registraron tambiénen Otavalo, El Cajas, San Pablo y Cotacachi. \n\nAlgo similar ocurrió en Pichincha en las comunidades indígenas de Pucará de Pesillo, La Chimba, Turucucho y Muyurcu en Cayambe; así como en San Miguel del Común. Las personas que se manifestaron lo hicieron por la eliminación del subsidio al diesel.",
+        "categoria": "represión",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-22",
+      "dia": "1",
+      "lugar": "Azuay, Cotopaxi, Chimborazo, Imbabura y Pichincha",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "#Pastaza |  Con el firme compromiso de precautelar la soberanía y mantener el orden público, Fuerzas Armadas del Ecuador desplegaron personal militar en puntos estratégicos de Pastaza y Napo, en el marco de las recientes manifestaciones sociales.\r\nLas operaciones militares buscan garantizar la tranq...",
+        "idea_fuerza": "Posicionar el discurso de proteger infraestructura crítica y asegurar el libre trásito.\n\nHablan de paz y soberanía nacional",
+        "fuente": "https://x.com/FFAAECUADOR/status/1970236571426136079"
+      },
+      "realidad_documentada": {
+        "titulo": "Bloqueo de vías en 5 provincias de Ecuador",
+        "resumen": "La provincia de Imbabura fue el escenario de los enfrentamientos más fuertes entre manifestantes y las fuerzas del orden",
+        "categoria": "censura",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-22",
+      "dia": "1",
+      "lugar": "Imbabura",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "#Pastaza |  Con el firme compromiso de precautelar la soberanía y mantener el orden público, Fuerzas Armadas del Ecuador desplegaron personal militar en puntos estratégicos de Pastaza y Napo, en el marco de las recientes manifestaciones sociales.\r\nLas operaciones militares buscan garantizar la tranq...",
+        "idea_fuerza": "Posicionar el discurso de proteger infraestructura crítica y asegurar el libre trásito.\n\nHablan de paz y soberanía nacional",
+        "fuente": "https://x.com/FFAAECUADOR/status/1970236571426136079"
+      },
+      "realidad_documentada": {
+        "titulo": "Detienen a mujer por impedir que policías disparen a manifestantes",
+        "resumen": "La Policía Naciónal detiene a una mujer que intentaba evitar que los agentes del GIR disparen directamente al cuerpo de los manifestantes en Otavalo. Dos días después la jóven fue libertada. De acuerdo con sus declaraciones, recibió maltratos de parte de miembros de la Policía Naciónal, quienes la acusaron de lanzar bombas molotov, palos y piedras en contra de los uniformados. Esto a pesar de los videos que demostraban que no actuaba de forma violenta.",
+        "categoria": "anuncio",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-22",
+      "dia": "1",
+      "lugar": "Imbabura",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "#Pastaza |  Con el firme compromiso de precautelar la soberanía y mantener el orden público, Fuerzas Armadas del Ecuador desplegaron personal militar en puntos estratégicos de Pastaza y Napo, en el marco de las recientes manifestaciones sociales.\r\nLas operaciones militares buscan garantizar la tranq...",
+        "idea_fuerza": "Posicionar el discurso de proteger infraestructura crítica y asegurar el libre trásito.\n\nHablan de paz y soberanía nacional",
+        "fuente": "https://x.com/FFAAECUADOR/status/1970236571426136079"
+      },
+      "realidad_documentada": {
+        "titulo": "Manifestante es atropellado por vehículo que salió del destacamiento de la policía",
+        "resumen": "Un manifestante es atropellado por un vehículo. El hecho quedó registrado en un video, varios medios de comunicacón lo reportan. Lanceros Digitales reporta que el vehículo habría salido de un destacamiento policial. El gobierno y la policía naciónal no se pronunciaron al respecto. La forma en que el evento es reportado varía dependiendo del medio de comunicación. En el video se observa que el vehículo embiste al manifestante mientras algunos medios lo reportan como un intento de escapar de los manifestantes.",
+        "categoria": "represión",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-22",
+      "dia": "1",
+      "lugar": "Imbabura",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "#Pastaza |  Con el firme compromiso de precautelar la soberanía y mantener el orden público, Fuerzas Armadas del Ecuador desplegaron personal militar en puntos estratégicos de Pastaza y Napo, en el marco de las recientes manifestaciones sociales.\r\nLas operaciones militares buscan garantizar la tranq...",
+        "idea_fuerza": "Posicionar el discurso de proteger infraestructura crítica y asegurar el libre trásito.\n\nHablan de paz y soberanía nacional",
+        "fuente": "https://x.com/FFAAECUADOR/status/1970236571426136079"
+      },
+      "realidad_documentada": {
+        "titulo": "Manifestantes queman un cuartel de la policía naciónal en la Otavalo",
+        "resumen": "Decenas de medios de comunicación del país e internaciónales reportan que un cuartel de policía en Otavalo fue atacado, dejando dos policías heridos y varios bienes destrozados. Mensajes de ciudadanos particulares afirman que esta acción fue en respuesta al atropellamiento de un manifestante por parte de la policía naciónal. En ningún medio se reporta esta información.",
+        "categoria": "violencia",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-22",
+      "dia": "1",
+      "lugar": "Imbabura",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "#Pastaza |  Con el firme compromiso de precautelar la soberanía y mantener el orden público, Fuerzas Armadas del Ecuador desplegaron personal militar en puntos estratégicos de Pastaza y Napo, en el marco de las recientes manifestaciones sociales.\r\nLas operaciones militares buscan garantizar la tranq...",
+        "idea_fuerza": "Posicionar el discurso de proteger infraestructura crítica y asegurar el libre trásito.\n\nHablan de paz y soberanía nacional",
+        "fuente": "https://x.com/FFAAECUADOR/status/1970236571426136079"
+      },
+      "realidad_documentada": {
+        "titulo": "Ministro del Interior, John Reimberg afirma que detuvieron a más de 50 personas después de las manifestaciónes en Otavalo.",
+        "resumen": "Ministro del Interior afirma que hay más de 50 detenidos y vincula a dos de estos al Tren Aragua mientras que GK señala que es muy difícil saber si alguien pertenece a la organización delictiva y señala otras razones para mencionar al grupo terrorista transnaciónal.",
+        "categoria": "represión",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-23",
+      "dia": "2",
+      "lugar": "Imbabura",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas trabaja por mantener el orden y la seguridad en el norte del país\r\n#Imbabura |  Fuerzas Armadas participa en el mantenimiento del orden y la seguridad durante las manifestaciones desarrolladas en el cantón #Otavalo.\r\nEl personal militar permanece desplegado con el propósito de garant...",
+        "idea_fuerza": "Posicionan respeto a los derechos humanos",
+        "fuente": "https://x.com/FFAAECUADOR/status/1970509785893093560"
+      },
+      "realidad_documentada": {
+        "titulo": "CONAIE denuncia la detención arbitraria de 50 personas en Imbabura",
+        "resumen": "Durante el tercer día de paro la CONAIE denunció la detención de 50 personas que se manifestaban en contra del incremento al diesel. Paralelamente, las siete naciónalidades de la Amazonía ecuatorinana decidieron unirse al paro naciónal el cual busca la derogación del Decreto Ejecutivo 126.",
+        "categoria": "detenciones",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-23",
+      "dia": "2",
+      "lugar": "Cotopaxi",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas trabaja por mantener el orden y la seguridad en el norte del país\r\n#Imbabura |  Fuerzas Armadas participa en el mantenimiento del orden y la seguridad durante las manifestaciones desarrolladas en el cantón #Otavalo.\r\nEl personal militar permanece desplegado con el propósito de garant...",
+        "idea_fuerza": "Posicionan respeto a los derechos humanos",
+        "fuente": "https://x.com/FFAAECUADOR/status/1970509785893093560"
+      },
+      "realidad_documentada": {
+        "titulo": "Latacunga sigue militarizada durante el segundo día de paro naciónal convocado por la CONAIE",
+        "resumen": "Durante el paro naciónal, la sede de gobierno Ecuatoriano se encuentra en Latacunga. Varias organizaciónes como el MICC convocaron a marchas para el tercer día de paro.",
+        "categoria": "represión",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-23",
+      "dia": "2",
+      "lugar": "Escala nacional",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas trabaja por mantener el orden y la seguridad en el norte del país\r\n#Imbabura |  Fuerzas Armadas participa en el mantenimiento del orden y la seguridad durante las manifestaciones desarrolladas en el cantón #Otavalo.\r\nEl personal militar permanece desplegado con el propósito de garant...",
+        "idea_fuerza": "Posicionan respeto a los derechos humanos",
+        "fuente": "https://x.com/FFAAECUADOR/status/1970509785893093560"
+      },
+      "realidad_documentada": {
+        "titulo": "Policía reprime a manifestantes en varios puntos de la ciudad de Quito.\nEn otras provincias se registran movilizaciones",
+        "resumen": "Durante el segundo día de paro naciónal, se registró una fuerte represión a las personas que salieron a las calles a protestar por el incremento del precio del diesel. Entre ellos se encontraban estudiantes, artistas, trabajadores, quienes recibieron golpes y gases lacrimógenos, algunos incluso en el rostro y boca para impedir que puedan decir su nombre frente a las cámaras que graban lo sucedido.\nEntre el primer y segundo día de paro naciónal el Ministerio del Interior registró 59 personas detenidas a escala naciónal.",
+        "categoria": "represión",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-24",
+      "dia": "3",
+      "lugar": "Imbabura",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas ratifican el cumplimiento del toque de queda en Tulcán\r\n#Tulcán |  Fuerzas Armadas ejecuta operaciones militares en el marco del estado de excepción, de acuerdo al Decreto Ejecutivo N.° 146, precautelando la seguridad ciudadana y recordando a la población sobre el toque de queda.\r\nLo...",
+        "idea_fuerza": "Toque de queda, decreto ejecutivo 146",
+        "fuente": "https://x.com/FFAAECUADOR/status/1970858946391912814"
+      },
+      "realidad_documentada": {
+        "titulo": "Otavalo recibe al presidente con gritos de \"Fuera Noboa, fuera\"",
+        "resumen": "[Resumen pendiente de completar - sofi poner lo de los disparos contra la gente (25 septiembre)...]",
+        "categoria": "violencia",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-24",
+      "dia": "3",
+      "lugar": "Cotopaxi",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas ratifican el cumplimiento del toque de queda en Tulcán\r\n#Tulcán |  Fuerzas Armadas ejecuta operaciones militares en el marco del estado de excepción, de acuerdo al Decreto Ejecutivo N.° 146, precautelando la seguridad ciudadana y recordando a la población sobre el toque de queda.\r\nLo...",
+        "idea_fuerza": "Toque de queda, decreto ejecutivo 146",
+        "fuente": "https://x.com/FFAAECUADOR/status/1970858946391912814"
+      },
+      "realidad_documentada": {
+        "titulo": "TV MICC fuera del aire, el gobierno justifica la medida por \"seguridad naciónal\"",
+        "resumen": "El Movimiento Indígena Campesino de Cotopaxi (MICC) realizó una denuncia pública frente a la censura a la libertad de expresión. La señal del medio comunitario TV MICC fue suspendida por la ARCOTEL de forma arbitraria. El cual era transmitido en Latacunga, Salcedo, Ambato, Cevallos, Quero, Pelileo, Pillaro y Tisaleo. La decisión se justificó con el argumento de \"precautelar el orden público y la seguridad naciónal\".",
+        "categoria": "censura",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-24",
+      "dia": "3",
+      "lugar": "Pichincha",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas ratifican el cumplimiento del toque de queda en Tulcán\r\n#Tulcán |  Fuerzas Armadas ejecuta operaciones militares en el marco del estado de excepción, de acuerdo al Decreto Ejecutivo N.° 146, precautelando la seguridad ciudadana y recordando a la población sobre el toque de queda.\r\nLo...",
+        "idea_fuerza": "Toque de queda, decreto ejecutivo 146",
+        "fuente": "https://x.com/FFAAECUADOR/status/1970858946391912814"
+      },
+      "realidad_documentada": {
+        "titulo": "CNE recibe dictmamen favorable de la Corte Constitucional sobre la consulta popular que hace referencia a la convocatoria a una Asamblea Constituyente",
+        "resumen": "Durante el tercer día protesta, Diana Atamaint, presidenta del CNE publicó un comunicado anunciando que la Corte Constitucional emitió un dictamen favorable para la pregunta sobre la Asamblea Constitutyente. A partir de esta fecha corre el plazo para convocar a la ciudadanía a las urnas para consultar a la población si quiere o no una nueva Constitución.",
+        "categoria": "anuncio",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-24",
+      "dia": "3",
+      "lugar": "Escala nacional",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas ratifican el cumplimiento del toque de queda en Tulcán\r\n#Tulcán |  Fuerzas Armadas ejecuta operaciones militares en el marco del estado de excepción, de acuerdo al Decreto Ejecutivo N.° 146, precautelando la seguridad ciudadana y recordando a la población sobre el toque de queda.\r\nLo...",
+        "idea_fuerza": "Toque de queda, decreto ejecutivo 146",
+        "fuente": "https://x.com/FFAAECUADOR/status/1970858946391912814"
+      },
+      "realidad_documentada": {
+        "titulo": "Número de detenciónes en el tercer día de paro naciónal asciende a 85 personas",
+        "resumen": "De acuerdo con información proporcionada por la Alianza de Organizaciónes por los Derechos Humanos del Ecuador presentó 85 detenciónes (54 verificadas y 31 sin información). La Alianza considera que hay un subregistro de personas heridas en el contexto del paro.",
+        "categoria": "detenciones",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-25",
+      "dia": "4",
+      "lugar": "Imbabura",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas restablecen la circulación en el Sur de Quito\r\n#Pichincha |  Fuerzas Armadas, a través del #BloqueDeSeguridad restableció la circulación vehicular en el sector de Cutuglagua, al sur de la capital, tras el cierre vial ocasionado.\r\nLa intervención permitió la apertura inmediata de las ...",
+        "idea_fuerza": "En este post si se hace referencia al paro nacional, hasta tienen un #, en las siguientes publicaciones se invisibiliza la situación en el país",
+        "fuente": "https://x.com/FFAAECUADOR/status/1971206722388734309"
+      },
+      "realidad_documentada": {
+        "titulo": "CONAIE advierte de los traslados de 12 ciudadanos detenidos en Otavalo en las manifestaciónes a cárceles en otras provincias",
+        "resumen": "[Resumen pendiente de completar]",
+        "categoria": "represión",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-25",
+      "dia": "4",
+      "lugar": "Imbabura\nAzuay",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas restablecen la circulación en el Sur de Quito\r\n#Pichincha |  Fuerzas Armadas, a través del #BloqueDeSeguridad restableció la circulación vehicular en el sector de Cutuglagua, al sur de la capital, tras el cierre vial ocasionado.\r\nLa intervención permitió la apertura inmediata de las ...",
+        "idea_fuerza": "En este post si se hace referencia al paro nacional, hasta tienen un #, en las siguientes publicaciones se invisibiliza la situación en el país",
+        "fuente": "https://x.com/FFAAECUADOR/status/1971206722388734309"
+      },
+      "realidad_documentada": {
+        "titulo": "Continua la represión contra manifestantes en Cuenca y Otavalo",
+        "resumen": "En Cuenca una marcha pacífica convocada por la Plataforma de organizaciónes en Defensa de lo Público, realizó un plantón relacionado al proyecto minero de Loma Larga. La policía naciónal dispersó la marcha y detuvo a dos personas. \nEn Otavalo la represión contra las personas que se manifestaban en el cuarto día de protestas se intensificó. Hubo una detención y varias personas heridas.",
+        "categoria": "detenciones",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-26",
+      "dia": "5",
+      "lugar": "Pichincha",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "✈ Fuerzas Armadas apoya en traslado de PPL\n#Imbabura |  Fuerzas Armadas a través del #BloqueDeSeguridad en coordinación con el SNAI, efectuó el traslado aéreo de 12 personas privadas de libertad (PPL)desde el CPL Imbabura hacia las ciudades de #Esmeraldas y #Manta.\nEntre los trasladados se encuentra...",
+        "idea_fuerza": "Traslado de manifestantes detenidos por policías y militares hacia centros de privación de la libertad en Esmeraldas y Manabí",
+        "fuente": "https://x.com/FFAAECUADOR/status/1971690069388837163"
+      },
+      "realidad_documentada": {
+        "titulo": "Asamblea Naciónal aprobó la Ley de Fortalecimiento Crediticio para el IEES y el BIESS",
+        "resumen": "En 2024 el Instituto Ecuatoriano de Seguridad Social (IESS) contaba con más de tres millones de personas afiliadas, quienes tenían acceso a servicios de salud, préstamos hipotecarios, préstamos quirografarios, fondos de reserva, jubilación, entre otros. De acuerdo con información proporcionada por el IESS, en 2024 la institución brindaba servicio a más de ocho millones de personas en todo el Ecuador.\n\nEl 28 de agosto de 2025 Daniel Noboa envió a la Asamblea Naciónal la Ley de Fortalecimiento Crediticio para el IESS y el BIESS.",
+        "categoria": "represión",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-26",
+      "dia": "5",
+      "lugar": "Pichincha",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "✈ Fuerzas Armadas apoya en traslado de PPL\n#Imbabura |  Fuerzas Armadas a través del #BloqueDeSeguridad en coordinación con el SNAI, efectuó el traslado aéreo de 12 personas privadas de libertad (PPL)desde el CPL Imbabura hacia las ciudades de #Esmeraldas y #Manta.\nEntre los trasladados se encuentra...",
+        "idea_fuerza": "Traslado de manifestantes detenidos por policías y militares hacia centros de privación de la libertad en Esmeraldas y Manabí",
+        "fuente": "https://x.com/FFAAECUADOR/status/1971690069388837163"
+      },
+      "realidad_documentada": {
+        "titulo": "Corte Constitucional del Ecuador declara inconstitucional a la Ley orgánica de Solidaridad Naciónal",
+        "resumen": "La Ley Orgánica de Solidaridad Naciónal fue aprobada el 7 de junio de 2025, contó con 84 votos, en su gran mayoría de la bancada oficialista. De acuerdo con información publicada en la página web de la Asamblea Naciónal, la norma enviada con carácter económico urgente por Daniel Noboa, establecía medidas legales y fiscales para combatir el financiamiento de las mafias, proteger a la población civil, fortalecer las fuerzas del orden y reactivar económicamente las zonas afectadas por la violencia.",
+        "categoria": "anuncio",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-26",
+      "dia": "5",
+      "lugar": "Pichincha",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "✈ Fuerzas Armadas apoya en traslado de PPL\n#Imbabura |  Fuerzas Armadas a través del #BloqueDeSeguridad en coordinación con el SNAI, efectuó el traslado aéreo de 12 personas privadas de libertad (PPL)desde el CPL Imbabura hacia las ciudades de #Esmeraldas y #Manta.\nEntre los trasladados se encuentra...",
+        "idea_fuerza": "Traslado de manifestantes detenidos por policías y militares hacia centros de privación de la libertad en Esmeraldas y Manabí",
+        "fuente": "https://x.com/FFAAECUADOR/status/1971690069388837163"
+      },
+      "realidad_documentada": {
+        "titulo": "Corte Constitucional del Ecuador declara inconstitucionalidad de la Ley de Integridad pública",
+        "resumen": "Por su parte, la Ley de Integridad Pública fue aprobada el 24 de junio de 2025 también contó con el apoyo de 84 asambleístas. De acuerdo con información publicada en la página web de la Asamblea Naciónal, entre los objetivos de esta Ley se encontraba el combate a la corrupción en el sector público; el fortalecimiento de la transparencia, la ética y la eficiencia en la gestión pública; reformar ámbitos institucionales, de contratación pública, gestión de la función pública y erradicación de redes delictivas; entre otros.",
+        "categoria": "anuncio",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-28",
+      "dia": "7",
+      "lugar": "Imbabura",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "12 MILITARES HERIDOS, MIENTRAS CUSTODIABAN UN CONVOY DE ALIMENTOS FUERON EMBOSCADOS \n\nLa muestra más palpable de que la protesta NO es pacífica se evidencia con los 12 militares heridos y 17 retenidos en el cumplimiento de su misión, mientras custodiaban un convoy de alimentos destinado a abastecer ...",
+        "idea_fuerza": "Posicionar que las protestas no son pacíficas, se menciona que hay militares heridos y retenidos mientras custodiaban un convoy de alimentos.\nPosicionar la idea de que son grupos terroristas.\nHay un video de las agresiones hacia los militares y también varias fotografías",
+        "fuente": "https://x.com/FFAAECUADOR/status/1972371357221404675"
+      },
+      "realidad_documentada": {
+        "titulo": "Escalada de violencia en el séptimo día de paro: fallece Efraín Fuerez",
+        "resumen": "Durante el séptimo día de paro naciónal se registró el deceso del comunero Efraín Fuerez, indígena perteneciente a la naciónalidad Kichwa, oriundo de Cotacachi, población perteneciente a la provincia de Imbabura y padre de familia. Tras recibir tres impactos de bala, Efraín Fuerez murió en un confuso enfrentamiento con militares registrado en la Panamericana Norte.",
+        "categoria": "violencia",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-28",
+      "dia": "7",
+      "lugar": "Pichicha",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "12 MILITARES HERIDOS, MIENTRAS CUSTODIABAN UN CONVOY DE ALIMENTOS FUERON EMBOSCADOS \n\nLa muestra más palpable de que la protesta NO es pacífica se evidencia con los 12 militares heridos y 17 retenidos en el cumplimiento de su misión, mientras custodiaban un convoy de alimentos destinado a abastecer ...",
+        "idea_fuerza": "Posicionar que las protestas no son pacíficas, se menciona que hay militares heridos y retenidos mientras custodiaban un convoy de alimentos.\nPosicionar la idea de que son grupos terroristas.\nHay un video de las agresiones hacia los militares y también varias fotografías",
+        "fuente": "https://x.com/FFAAECUADOR/status/1972371357221404675"
+      },
+      "realidad_documentada": {
+        "titulo": "Fiscalía General del Estado (FGE) abre una investigación por un presunto delito de enriquecimiento no justificado de 61 personas",
+        "resumen": "Mientras en el país se desarrollaba el séptimo día del paro naciónal, la CONAIE denunció que la Fiscalía General del Estado (FGE) abrió investigaciones por presunto enriquecimiento ilícito dirigido hacia varios de sus dirigentes. La organización indígena interpretó estos procesos como una forma de criminalización, persecución política y judicial.",
+        "categoria": "violencia",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-28",
+      "dia": "7",
+      "lugar": "Imbabura",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "12 MILITARES HERIDOS, MIENTRAS CUSTODIABAN UN CONVOY DE ALIMENTOS FUERON EMBOSCADOS \n\nLa muestra más palpable de que la protesta NO es pacífica se evidencia con los 12 militares heridos y 17 retenidos en el cumplimiento de su misión, mientras custodiaban un convoy de alimentos destinado a abastecer ...",
+        "idea_fuerza": "Posicionar que las protestas no son pacíficas, se menciona que hay militares heridos y retenidos mientras custodiaban un convoy de alimentos.\nPosicionar la idea de que son grupos terroristas.\nHay un video de las agresiones hacia los militares y también varias fotografías",
+        "fuente": "https://x.com/FFAAECUADOR/status/1972371357221404675"
+      },
+      "realidad_documentada": {
+        "titulo": "¿El Convoy que se trasladó hacia Imbabura era \"humanitario\"?",
+        "resumen": "El domingo 28 de octubre, durante la noche, un convoy integrado por al menos 100 vehículos salió del aeropuerto Mariscal Sucre ubicado en la ciudad de Quito hacia la provincia de Imbabura: hasta ese momento considerado como el epicentro del paro naciónal de 2025. De acuerdo con información proporcionada por la vocera de gobierno Carolina Jaramillo, el convoy estuvo liderado por Daniel Noboa, en este también participaron varios delegados de la Organización de las Naciónes Unidas (ONU), así como personal de la Unión Europea en Ecuador.",
+        "categoria": "censura",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-09-29",
+      "dia": "8",
+      "lugar": "Pichincha",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "🛩 Evacuación aeromédica salva la vida de un neonato en Ibarra\n\n✅#Imbabura | Las Fuerzas Armadas del Ecuador mediante el uso de medios aéreos, realizó la evacuación aeromédica de un neonato en estado crítico, trasladándolo desde #Ibarra hacia una casa de salud en #Quito.\nGracias a la coordinación ent...",
+        "idea_fuerza": "Traslado de recién nacido por vía aérea hacia Quito",
+        "fuente": "https://x.com/FFAAECUADOR/status/1972699459160039841"
+      },
+      "realidad_documentada": {
+        "titulo": "Advertencia de ONU Derechos Humanos: los militares no están entrenados para enfrentar situaciones de conflictividad social y que su despliegue representa un riesgo real para las personas que se manifiestan en las calles",
+        "resumen": "El 19 de septiembre de 2015, la Oficina del Alto Comisionado de las Naciónes Unidas para los Derechos Humanos en América del Sur pidió que se inicie un \"diálogo urgente en Ecuador, tras los hechos de violencia ocurridos en el marco de recientes protestas sociales convocadas por movimientos indígenas y otros sectores en el país\".",
+        "categoria": "represión",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-10-01",
+      "dia": "11",
+      "lugar": "Pichincha",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "Comunicamos que nuestro personal ya está con nosotros y bajo el cuidado de la institución.\r\nEn este momento, la prioridad es su recuperación. \r\nSe están realizando de forma inmediata observaciones y chequeos médicos especializados.\r\nEsta es una noticia en desarrollo, mantendremos a la ciudadanía inf...",
+        "idea_fuerza": "Se posiciona la idea de que los militares que estuvieron cautivos por los manifestantes reciben asistencia médica",
+        "fuente": "https://x.com/FFAAECUADOR/status/1973430214853067139"
+      },
+      "realidad_documentada": {
+        "titulo": "Se interpondrá una denuncia penal por ejecución extrajudicial de Efraín Fuerez",
+        "resumen": "El martes 29 de septiembre se realizó el entierro del comunero Efraín Fuerez en Quiroga, una comunidad indígena ubicada en el cantón Cotacachi, perteneciente a la provincia de Imbabura. Durante el emotivo acto de despedida, familiares, amigos y dirigencia del movimiento indígena reclamaron a las autoridades justicia y reparación frente a la situación en que Fuerez falleció.",
+        "categoria": "anuncio",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-10-02",
+      "dia": "11",
+      "lugar": "Pichincha",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "Vía desbloqueada y tránsito restablecido \r\n#Sucumbíos | Las Fuerzas Armadas del Ecuador intervinieron en los km 12 y 15 de la vía Lago Agrio – El Coca, donde se registraban cierres intencionales.\r\nCon la remoción de escombros, el tránsito vehicular fue restablecido de inmediato, garantizando la libr...",
+        "idea_fuerza": "Se hace referencia a cierres viales intencionales, no se habla del paro, es una suerte de invisbilización de la protesta",
+        "fuente": "https://x.com/FFAAECUADOR/status/1973787644451590650"
+      },
+      "realidad_documentada": {
+        "titulo": "Gobierno de Daniel Noboa amplía el feriado del 9 de octubre para \"impulsar el turismo\", lo hace en medio de una grave vulneración de derechos en las jornadas de protesta del paro naciónal 2025",
+        "resumen": "A través del Decreto Ejecutivo No 172, el presidente de Ecuador, Daniel Noboa extendió el feriado naciónal por la Independencia de Guayaquil. Debido al carácter “de última hora” del Decreto, el feriado tomó por sorpresa a la ciudadanía y al sector turístico del país. Además, el anuncio se realizó en medio del paro naciónal, de vías cerradas, de interrupción de servicios, de mucha incertidumbre y de una fuerte represión de los manifestantes, que hasta ese momento contaban con una persona fallecida, centenares de heridas, varias desaparecidas, ot...",
+        "categoria": "anuncio",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-10-02",
+      "dia": "11",
+      "lugar": "Pichincha",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "Vía desbloqueada y tránsito restablecido \r\n#Sucumbíos | Las Fuerzas Armadas del Ecuador intervinieron en los km 12 y 15 de la vía Lago Agrio – El Coca, donde se registraban cierres intencionales.\r\nCon la remoción de escombros, el tránsito vehicular fue restablecido de inmediato, garantizando la libr...",
+        "idea_fuerza": "Se hace referencia a cierres viales intencionales, no se habla del paro, es una suerte de invisbilización de la protesta",
+        "fuente": "https://x.com/FFAAECUADOR/status/1973787644451590650"
+      },
+      "realidad_documentada": {
+        "titulo": "CONAIE a través de su Consejo Ampliado ratifica la continuidad del paro naciónal",
+        "resumen": "En el onceavo día de paro naciónal registrado en Ecuador en el año 2025, el Consejo Ampliado de la CONAIE y sus regionales se reunieron en Quito para analizar las nuevas acciones que tomaría en medio de las movilizaciones. Después de un largo debate el presidente de la organización, Marlon Vargas, se dirigió a los medios de comunicación para presentar seis resoluciones alcanzadas: \n\r\nEn primer lugar, “ratificar la continuidad del paro naciónal  como expresión legítima de resistencia frente a un gobierno autoritario subordinado al Fondo Monetari...",
+        "categoria": "detenciones",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-10-03",
+      "dia": "12",
+      "lugar": "Imbabura",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "Vía Riobamba-Guaranda habilitada en el sector Vinchoa\r\n\r\nEn cumplimiento de su misión de garantizar la libre movilidad y seguridad de los ciudadanos, las Fuerzas Armadas del Ecuador habilitaron la vía #Riobamba – #Guaranda, en el sector Vinchoa, la cual se encontraba bloqueada por manifestantes.\r\nDu...",
+        "idea_fuerza": "Dispersión de manifestantes, que son retratados como violentos y que cobran peajes",
+        "fuente": "https://x.com/FFAAECUADOR/status/1974210244541890632"
+      },
+      "realidad_documentada": {
+        "titulo": "Economía en la provincia de Imbabura sufre traspié durante el paro naciónal",
+        "resumen": "Durante el doceavo día de protestas los medios de comunicación informaron que la economía de Imbabura se encontraba afectada por las protestas y cierres viales registrados en varios sitios de la provincia. De acuerdo con información proporcionada por el portal Gk, entre los sectores con mayores pérdidas económicas se encontrarían: comercial, turismo, artesanal, textil, floricultor y agroindustrial, esto con mayor énfasis en Otavalo, Cotacachi e Ibarra.",
+        "categoria": "anuncio",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-10-04",
+      "dia": "13",
+      "lugar": "Pichincha",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "Vías habilitadas gracias a acciones militares coordinadas\r\n\r\nLas Fuerzas Armadas del Ecuador ejecutaron operaciones militares en las provincias de #Cañar y #Azuay, con el objetivo de garantizar la libre movilidad y el desarrollo de las actividades cotidianas de la población civil.\r\nGracias al diálog...",
+        "idea_fuerza": "En el video un militar afirma que después de dialogar con los líderes de la comunidad llegaron a un acuerdo para abrir la vía",
+        "fuente": "https://x.com/FFAAECUADOR/status/1974458054792843752"
+      },
+      "realidad_documentada": {
+        "titulo": "Periodistas de medios de comunicación alternativos son reprimidos por elementos de la Policía Naciónal",
+        "resumen": "Un grupo de manifestantes fue desalojado por la fuerza por efectivos de la Policía y las Fuerzas Armadas que resguardaban a simpatizantes del movimiento ADN en el parque El Arbolito, en el centro de Quito. Durante el operativo, varios reporteros de prensa fueron agredidos por uniformados mientras intentaban registrar el desalojo, ejecutado principalmente por agentes motorizados de la Policía Naciónal.",
+        "categoria": "violencia",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-10-05",
+      "dia": "14",
+      "lugar": "Pichincha",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "🚩 Operaciones militares (CAMEX) en Pedro Moncayo y Cayambe\r\n\r\n#Pichincha | Las Fuerzas Armadas, ejecuta operaciones militares de Control de Armas, Municiones y Explosivos (CAMEX) en los sectores de Cangahua, Tocachi, Cuzubamba y Pingulmí, pertenecientes a los cantones Pedro Moncayo y Cayambe.\r\n\r\n🪖 E...",
+        "idea_fuerza": "Evitando cirres viales, no hacen mención al paro o manifestaciones",
+        "fuente": "https://x.com/FFAAECUADOR/status/1974944742057054283"
+      },
+      "realidad_documentada": {
+        "titulo": "Policias agreden a periodistas y a personas de la tercerda edad",
+        "resumen": "La tarde del 5 de septiembre, un grupo de policías agredió a periodistas de Wambra, Ecuador Chequea y Expreso. Este hecho se suma a otras agresiones cometidas por uniformados contra reporteros que cubren las manifestaciónes ciudadanas en Ecuador.\n\nEn los videos difundidos se observa cómo agentes de la Policía Naciónal arremeten contra una persona de la tercera edad e intentan atropellarla con la llanta delantera de una motocicleta.",
+        "categoria": "represión",
+        "violaciones": []
+      }
+    },
+    {
+      "fecha": "2025-10-05",
+      "dia": "14",
+      "lugar": "Pichincha",
+      "narrativa_oficial": {
+        "cuenta": "FFAA",
+        "texto": "🚩 Operaciones militares (CAMEX) en Pedro Moncayo y Cayambe\r\n\r\n#Pichincha | Las Fuerzas Armadas, ejecuta operaciones militares de Control de Armas, Municiones y Explosivos (CAMEX) en los sectores de Cangahua, Tocachi, Cuzubamba y Pingulmí, pertenecientes a los cantones Pedro Moncayo y Cayambe.\r\n\r\n🪖 E...",
+        "idea_fuerza": "Evitando cirres viales, no hacen mención al paro o manifestaciones",
+        "fuente": "https://x.com/FFAAECUADOR/status/1974944742057054283"
+      },
+      "realidad_documentada": {
+        "titulo": "Periodists español (Bernat Lautaro), fue deportado mientras cubría el paro naciónal",
+        "resumen": "El periodista español Lautaro Bernat fue deportado la noche del 5 de octubre, tras ser detenido mientras cubría una manifestación contra el Gobierno en Quito. La Fundación Regional de Asesoría en Derechos Humanos (Inredh) alertó que el procedimiento estuvo “plagado de irregularidades y violaciónes al debido proceso”, pues no se le informaron las causas de su detención, se le negó comunicación con su embajada y no tuvo acceso a defensa legal.",
+        "categoria": "detenciones",
+        "violaciones": []
+      }
+    }
+  ],
+  "todas_narrativas": {
+    "2025-09-15": [
+      {
+        "cuenta": "FFAA",
+        "texto": "Operaciones militares refuerzan la seguridad en Latacunga\r\n\r\n#Cotopaxi | Las Fuerzas Armadas del Ecuador, a través del #BloqueDeSeguridad, ejecutan operaciones militares en puntos estratégicos del cantón #Latacunga, además de brindar seguridad permanente en la sede del Gobierno ubicada en la Goberna...",
+        "lugar": "Cotopaxi",
+        "idea_fuerza": "Traslado sede de gobierno a Latacunga",
+        "enlace": "https://x.com/FFAAECUADOR/status/1967753027621716472"
+      }
+    ],
+    "2025-09-17": [
+      {
+        "cuenta": "FFAA",
+        "texto": "📌Las Fuerzas Armadas ejecutan operaciones de control del orden público en Carchi.📌\r\n\r\n🔴#Carchi || Las Fuerzas Armadas del Ecuador a través del #BloqueDeSeguridad, ejecutaron operaciones de control del orden público, dando cumplimiento al Decreto de estado de excepción N°134, de fecha 16 de septiembr...",
+        "lugar": "Carchi",
+        "idea_fuerza": "uso legítimo a los diferentes niveles del uso de la fuerza, con el empleo de armamento NO letal",
+        "enlace": "https://x.com/FFAAECUADOR/status/1968310121093619990"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "📌Fuerzas Armadas fortalece la seguridad vial en Imbabura📌\r\n\r\n🔴#Imbabura || Las Fuerzas Armadas a través del #BloqueDeSeguridad, con el propósito de fortalecer la seguridad y brindar tranquilidad a la ciudadanía.\r\n\r\nLas operaciones se llevan a cabo de forma estratégica en Eugenio Espejo de #Otavalo y...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Patrullaje y controles militares, prevención de actos delictivos",
+        "enlace": "https://x.com/FFAAECUADOR/status/1968316277883093207"
+      }
+    ],
+    "2025-09-20": [
+      {
+        "cuenta": "FFAA",
+        "texto": "#Alóag  | Las Fuerzas Armadas del Ecuador, se encuentra desplegadas en los ejes viales E35 y Panamericana Sur, cumpliendo tareas de custodia y control con el propósito de garantizar la seguridad ciudadana y el derecho a la libre movilidad de todos los ecuatorianos, en estricto cumplimiento de la ley...",
+        "lugar": "Pichincha",
+        "idea_fuerza": "Posicionar discurso de seguridad ciudadana. También posicionan derechos",
+        "enlace": "https://x.com/FFAAECUADOR/status/1969480806675481008"
+      }
+    ],
+    "2025-09-21": [
+      {
+        "cuenta": "FFAA",
+        "texto": "Las Fuerzas Armadas del Ecuador están en cada rincón del país, firmes y vigilantes, para proteger lo más valioso: la seguridad de los ecuatorianos.\r\n\r\n#FFAAContigo\r\n#EcuadorUnaSolaFuerza",
+        "lugar": "Todo el territorio",
+        "idea_fuerza": "Posicionar discursos securitistas",
+        "enlace": "https://x.com/FFAAECUADOR/status/1969798887604122085"
+      }
+    ],
+    "2025-09-22": [
+      {
+        "cuenta": "FFAA",
+        "texto": "#Pastaza |  Con el firme compromiso de precautelar la soberanía y mantener el orden público, Fuerzas Armadas del Ecuador desplegaron personal militar en puntos estratégicos de Pastaza y Napo, en el marco de las recientes manifestaciones sociales.\r\nLas operaciones militares buscan garantizar la tranq...",
+        "lugar": "Pastaza",
+        "idea_fuerza": "Posicionar el discurso de proteger infraestructura crítica y asegurar el libre trásito.\n\nHablan de paz y soberanía nacional",
+        "enlace": "https://x.com/FFAAECUADOR/status/1970236571426136079"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": " En Azuay y Cañar Fuerzas Armadas refuerzan puntos estratégicos\n#Azuay |  Fuerzas Armadas del Ecuador a través ejecutan operaciones militares en áreas de seguridad reservadas y en sitios de alta importancia estratégica, con el propósito de, fortalecer la tranquilidad ciudadana y asegurar el libre tr...",
+        "lugar": "Azuay",
+        "idea_fuerza": "Libre tránsito.\nProteger derechos y libertades",
+        "enlace": "https://x.com/FFAAECUADOR/status/1970263203268673729"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "#Pichincha |  Fuerzas Armadasejecuta operaciones militares de seguridad interna en los ejes viales E35 y Panamericana Sur, en los sectores de Tambillo y Aloag.\r\nEl personal militar realiza tareas de custodia y control con el objetivo de garantizar la seguridad ciudadana, prevenir incidentes, mantene...",
+        "lugar": "Pichincha",
+        "idea_fuerza": "Asegurar el derecho a la libre movilidad",
+        "enlace": "https://x.com/FFAAECUADOR/status/1970287610506707374"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Aviación militar despliega personal y realiza evacuaciones aeromédicas\r\n#Ecuador |  Fuerzas Armadas, ejecuta un despliegue operativo en apoyo a las operaciones militares desarrolladas en el marco del paro nacional, movilizando personal hacia zonas de mayor incidencia para reforzar la seguridad y cum...",
+        "lugar": "Sin especificar el área de intervención",
+        "idea_fuerza": "Evacacuaciones aeromédicas",
+        "enlace": "https://x.com/FFAAECUADOR/status/1970293434557800718"
+      }
+    ],
+    "2025-09-23": [
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas trabaja por mantener el orden y la seguridad en el norte del país\r\n#Imbabura |  Fuerzas Armadas participa en el mantenimiento del orden y la seguridad durante las manifestaciones desarrolladas en el cantón #Otavalo.\r\nEl personal militar permanece desplegado con el propósito de garant...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Posicionan respeto a los derechos humanos",
+        "enlace": "https://x.com/FFAAECUADOR/status/1970509785893093560"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "#Pastaza | Las Fuerzas Armadas del Ecuador, mantienen desplegado personal militar en distintos puntos estratégicos de la provincia, garantizando la seguridad ciudadana y el normal desarrollo de las actividades diarias.\r\nLos soldados se encuentran ubicados en sectores de importancia vial cumpliendo s...",
+        "lugar": "Pastaza",
+        "idea_fuerza": "Despliegue de personal militar",
+        "enlace": "https://x.com/FFAAECUADOR/status/1970522175279927587"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas refuerza la seguridad en Azuay\r\n#Azuay | Las Fuerzas Armadas del Ecuador, ejecutan operaciones militares de control en el sector de Sayausí, cantón #Cuenca, y en los principales ejes viales de la provincia, con el objetivo de fortalecer la seguridad provincial y garantizar el libre t...",
+        "lugar": "Azuay",
+        "idea_fuerza": "Control de ejes viales",
+        "enlace": "https://x.com/FFAAECUADOR/status/1970529512057196990"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "#Pichincha | El personal de las Fuerzas Armadas del Ecuador, ejecuta operaciones de control en los principales ejes viales de Quito.\r\nEl despliegue militar se realizó desde el intercambiador de Santa Rosa en la E35, hasta el puente de Cutuglagua y la entrada a la capital por Guamaní, garantizando la...",
+        "lugar": "Pichincha",
+        "idea_fuerza": "Derecho a la libre movilidad",
+        "enlace": "https://x.com/FFAAECUADOR/status/1970562369702011042"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas, firmes garantes de la seguridad nacional\n#Imbabura |  Fuerzas Armadas mantiene desplegados a sus soldados en la vía E35, en puntos estratégicos como la Y de Cajas, cantón #Otavalo, #Atuntaqui y en la Gobernación de Imbabura.\nEstas operaciones militares internas tienen como objetivo ...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Posicionar el compromiso de servir a la patria",
+        "enlace": "https://x.com/FFAAECUADOR/status/1970594317975568619"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "🇪🇨🤝🇺🇸 Fortalecimiento de la cooperación en seguridad  \r\n\r\nPichincha | Fuerzas Armadas recibió la visita del Almirante Alvin Holsey, Comandante del Comando Sur de los Estados Unidos (SOUTHCOM), quien mantuvo reuniones con el Jefe del Conjunto de las Fuerzas Armadas del Ecuador, General Henry Delgado ...",
+        "lugar": "Sin especificar el área de intervención",
+        "idea_fuerza": "Cooperación para fortalecer seguridad",
+        "enlace": "https://x.com/FFAAECUADOR/status/1970608425798078736"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas movilizan personal militar para garantizar la seguridad nacional\r\n#Pichicncha |  Fuerzas Armadas, ejecuta transporte aéreo de personal militar hacia los puntos estratégicos del país que permiten reforzar la seguridad ciudadana, proteger infraestructuras estratégicas y garantizar el n...",
+        "lugar": "Pichincha",
+        "idea_fuerza": "Despliegue aéreo",
+        "enlace": "https://x.com/FFAAECUADOR/status/1970631643384946825"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "El terrorismo no es protesta: es una amenaza contra la vida, la paz, la libertad y el futuro de nuestro pueblo.\r\n\r\nLas Fuerzas Armadas vamos a seguir defendiendo a nuestra gente, los protegeremos y garantizaremos que el Ecuador siga adelante.\r\n\r\n#EcuadorUnaSolaFuerza\r\n#FFAAContigo",
+        "lugar": "Sin especificar el área de intervención",
+        "idea_fuerza": "Posicionar el discurso de terrorismo",
+        "enlace": "https://x.com/FFAAECUADOR/status/1970641032296677506"
+      }
+    ],
+    "2025-09-24": [
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas ratifican el cumplimiento del toque de queda en Tulcán\r\n#Tulcán |  Fuerzas Armadas ejecuta operaciones militares en el marco del estado de excepción, de acuerdo al Decreto Ejecutivo N.° 146, precautelando la seguridad ciudadana y recordando a la población sobre el toque de queda.\r\nLo...",
+        "lugar": "Carchi",
+        "idea_fuerza": "Toque de queda, decreto ejecutivo 146",
+        "enlace": "https://x.com/FFAAECUADOR/status/1970858946391912814"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas controlan la seguridad en Imbabura\r\n#Imbabura |  Fuerzas Armadas mantiene desplegado personal militar en la vía E35, ejecutando operaciones de limpieza de escombros y control de seguridad, con el objetivo de garantizar el orden público, asegurar el libre tránsito y precautelar la tra...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "El post cuenta con fotografías del trabajo de los militares en la provincia",
+        "enlace": "https://x.com/FFAAECUADOR/status/1970869088206393546"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "La patria no se destruye, se construye.\r\nCon firmeza y compromiso, las Fuerzas Armadas del Ecuador velamos por la paz y el desarrollo de nuestro país.\r\n\r\n#ffaacontigo\r\n#ecuadorunasolafuerza",
+        "lugar": "Sin especificar el área de intervención",
+        "idea_fuerza": "Video muestra imágenes del paro nacional mezcladas con delicuencia, minería, contrabando\n\"¿qué significa hacer patria?\"",
+        "enlace": NaN
+      }
+    ],
+    "2025-09-25": [
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas restablecen la circulación en el Sur de Quito\r\n#Pichincha |  Fuerzas Armadas, a través del #BloqueDeSeguridad restableció la circulación vehicular en el sector de Cutuglagua, al sur de la capital, tras el cierre vial ocasionado.\r\nLa intervención permitió la apertura inmediata de las ...",
+        "lugar": "Pichincha",
+        "idea_fuerza": "En este post si se hace referencia al paro nacional, hasta tienen un #, en las siguientes publicaciones se invisibiliza la situación en el país",
+        "enlace": "https://x.com/FFAAECUADOR/status/1971206722388734309"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas fortalecen capacidades en entrenamiento conjunto internacional\r\n\r\n#EE.UU |  Fuerzas Armadas participó como parte de la delegación del Ecuador en ejercicios y entrenamientos realizados en la Base Camp Lejeune (Carolina del Norte, EE. UU.). El personal del Grupo de Fuerzas Especiales r...",
+        "lugar": "Sin especificar el área de intervención",
+        "idea_fuerza": "Aunque no es el contexto del paro, militares se entrenan en combate urbano",
+        "enlace": "https://x.com/FFAAECUADOR/status/1971242554286072262"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "#Imbabura | Fuerzas Armadas brindan seguridad a las entidades del Estado y mantienen presencia activa en distintos sectores de la provincia, con el objetivo de precautelar el bienestar de la ciudadanía ante las movilizaciones registradas.\r\nEstas acciones permiten garantizar el orden público, la libr...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Presencia militar en lugares estratégicos de la provincia",
+        "enlace": "https://x.com/FFAAECUADOR/status/1971337913859219801"
+      }
+    ],
+    "2025-09-26": [
+      {
+        "cuenta": "FFAA",
+        "texto": "✈ Fuerzas Armadas apoya en traslado de PPL\n#Imbabura |  Fuerzas Armadas a través del #BloqueDeSeguridad en coordinación con el SNAI, efectuó el traslado aéreo de 12 personas privadas de libertad (PPL)desde el CPL Imbabura hacia las ciudades de #Esmeraldas y #Manta.\nEntre los trasladados se encuentra...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Traslado de manifestantes detenidos por policías y militares hacia centros de privación de la libertad en Esmeraldas y Manabí",
+        "enlace": "https://x.com/FFAAECUADOR/status/1971690069388837163"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "⛽ FUERZAS ARMADAS GARANTIZAN EL ABASTECIMIENTO DE COMBUSTIBLE\r\n#Carchi |  Fuerzas Armadas a través del #BloqueDeSeguridad, brindó seguridad a un convoy de vehículos que transportaba combustible hacia la provincia, garantizando el abastecimiento a la ciudadanía en el marco del paro nacional.\r\nEl pers...",
+        "lugar": "Carchi",
+        "idea_fuerza": "Garantizar el abastecimiento de combustible durante el paro",
+        "enlace": "https://x.com/FFAAECUADOR/status/1971692323785318647"
+      }
+    ],
+    "2025-09-28": [
+      {
+        "cuenta": "FFAA",
+        "texto": "12 MILITARES HERIDOS, MIENTRAS CUSTODIABAN UN CONVOY DE ALIMENTOS FUERON EMBOSCADOS \n\nLa muestra más palpable de que la protesta NO es pacífica se evidencia con los 12 militares heridos y 17 retenidos en el cumplimiento de su misión, mientras custodiaban un convoy de alimentos destinado a abastecer ...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Posicionar que las protestas no son pacíficas, se menciona que hay militares heridos y retenidos mientras custodiaban un convoy de alimentos.\nPosicionar la idea de que son grupos terroristas.\nHay un video de las agresiones hacia los militares y también varias fotografías",
+        "enlace": "https://x.com/FFAAECUADOR/status/1972371357221404675"
+      }
+    ],
+    "2025-09-29": [
+      {
+        "cuenta": "FFAA",
+        "texto": "🛩 Evacuación aeromédica salva la vida de un neonato en Ibarra\n\n✅#Imbabura | Las Fuerzas Armadas del Ecuador mediante el uso de medios aéreos, realizó la evacuación aeromédica de un neonato en estado crítico, trasladándolo desde #Ibarra hacia una casa de salud en #Quito.\nGracias a la coordinación ent...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Traslado de recién nacido por vía aérea hacia Quito",
+        "enlace": "https://x.com/FFAAECUADOR/status/1972699459160039841"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas habilitan vías estratégicas en Chimborazo y Bolívar\r\n\r\nLas Fuerzas Armadas del Ecuador, a través del #BloqueDeSeguridad, ejecutaron acciones para habilitar cierres viales y restablecer el tránsito vehicular en los cantones de #Colta, #Guamote y #Alausí.\r\nDurante la intervención se re...",
+        "lugar": "Chimborazo",
+        "idea_fuerza": "Cierres viales, para asegurar la circulación vial",
+        "enlace": "https://x.com/FFAAECUADOR/status/1972704876728590572"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas transporta pintas de sangre a Ibarra\r\n\r\n#Imbabura | Fuerzas Armadas, ejecutó una operación militar de apoyo aéreo con el traslado de pintas de sangre hacia la ciudad de #Ibarra, en coordinación con la Cruz Roja Ecuatoriana.\r\nEsta acción permitió abastecer al Banco de Sangre de la pro...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Militares transportan pintas de sangre hacia Ibarra",
+        "enlace": "https://x.com/FFAAECUADOR/status/1972768276934504897"
+      }
+    ],
+    "2025-09-30": [
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas del Ecuador presentó denuncia formal por Secuestro de Personal Militar.\r\n\r\nLas \r\n@FFAAECUADOR\r\n informan a la ciudadanía que, tras los lamentables hechos de secuestro de personal militar ocurridos en el contexto del Paro Nacional, se ha procedido a la presentación inmediata y formal ...",
+        "lugar": "Sin especificar el área de intervención",
+        "idea_fuerza": "Denuncia secuestro de personal militar durante el paro nacional",
+        "enlace": "https://x.com/FFAAECUADOR/status/1973004926830727545"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "✅ Vías habilitadas garantizan la movilidad ciudadana\r\n\r\n#Azuay | Las Fuerzas Armadas del Ecuador, ejecutaron operaciones de remoción de escombros en los principales ejes viales de esta jurisdicción.\r\nEn la parroquia Molleturo de la ciudad de #Cuenca, se habilitó la vía tras el retiro de material pét...",
+        "lugar": "Azuay",
+        "idea_fuerza": "Vías habilitadas, no se menciona nada sobre el paro",
+        "enlace": "https://x.com/FFAAECUADOR/status/1973050872943763796"
+      }
+    ],
+    "2025-10-01": [
+      {
+        "cuenta": "FFAA",
+        "texto": "Comunicamos que nuestro personal ya está con nosotros y bajo el cuidado de la institución.\r\nEn este momento, la prioridad es su recuperación. \r\nSe están realizando de forma inmediata observaciones y chequeos médicos especializados.\r\nEsta es una noticia en desarrollo, mantendremos a la ciudadanía inf...",
+        "lugar": NaN,
+        "idea_fuerza": "Se posiciona la idea de que los militares que estuvieron cautivos por los manifestantes reciben asistencia médica",
+        "enlace": "https://x.com/FFAAECUADOR/status/1973430214853067139"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas armadas garantiza la libre movilidad en Quito\r\n#Quito |  Las Fuerzas Armadas mantienen presencia permanente en las principales vías de la capital, con el objetivo de asegurar la seguridad ciudadana y garantizar el normal desarrollo de las actividades de la población.\r\nLa custodia militar per...",
+        "lugar": "Pichincha",
+        "idea_fuerza": "Militares garantizan la libre movilidad en Quito",
+        "enlace": "https://x.com/FFAAECUADOR/status/1973477453416018053"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "EVACUACIÓN AEROMÉDICA DESDE IMBABURA\r\n#Imbabura | Fuerzas Armadas, ejecutó una evacuación aeromédica de un niño de 1 año y 8 meses que requería atención médica especializada urgente desde la ciudad de Ibarra hasta la capital.\r\nCon estas acciones, las Fuerzas Armadas reafirman su compromiso de apoyar...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Necesidad de trasladar a un infante a la capital",
+        "enlace": "https://x.com/FFAAECUADOR/status/1973502632066011291"
+      }
+    ],
+    "2025-10-02": [
+      {
+        "cuenta": "FFAA",
+        "texto": "Vía desbloqueada y tránsito restablecido \r\n#Sucumbíos | Las Fuerzas Armadas del Ecuador intervinieron en los km 12 y 15 de la vía Lago Agrio – El Coca, donde se registraban cierres intencionales.\r\nCon la remoción de escombros, el tránsito vehicular fue restablecido de inmediato, garantizando la libr...",
+        "lugar": "Sucumbíos",
+        "idea_fuerza": "Se hace referencia a cierres viales intencionales, no se habla del paro, es una suerte de invisbilización de la protesta",
+        "enlace": "https://x.com/FFAAECUADOR/status/1973787644451590650"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "URGENTE: VARIAS VIDAS HUMANAS EN PELIGRO\r\n\r\nLas Fuerzas Armadas denunciamos con absoluta gravedad la obstaculización del transporte de oxígeno cuyo destino son hospitales de la sierra norte, insumo destinado para salvar la vida de varios enfermos incluidos niños y adultos mayores. El derecho a prote...",
+        "lugar": "Sin especificar el área de intervención",
+        "idea_fuerza": "Posicionar que el paro pone en peligro de muerte a personas vulnerables",
+        "enlace": "https://x.com/FFAAECUADOR/status/1973806304498983151"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas reafirman su compromiso con la recuperación de sus soldados\r\n#Imbabura | Diecisiete militares que cumplían operaciones de control interno en el cantón\r\nCotacachi fueron liberados tras haber permanecido secuestrados durante tres días, presentando graves lesiones como fracturas, politr...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Son liberados 17 militares que estuvieron cautivos durante 3 días",
+        "enlace": "https://x.com/FFAAECUADOR/status/1973861455704318219"
+      }
+    ],
+    "2025-10-03": [
+      {
+        "cuenta": "FFAA",
+        "texto": "Vía Riobamba-Guaranda habilitada en el sector Vinchoa\r\n\r\nEn cumplimiento de su misión de garantizar la libre movilidad y seguridad de los ciudadanos, las Fuerzas Armadas del Ecuador habilitaron la vía #Riobamba – #Guaranda, en el sector Vinchoa, la cual se encontraba bloqueada por manifestantes.\r\nDu...",
+        "lugar": "Sierra centro \nRiomabma \nGuaranda",
+        "idea_fuerza": "Dispersión de manifestantes, que son retratados como violentos y que cobran peajes",
+        "enlace": "https://x.com/FFAAECUADOR/status/1974210244541890632"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas garantiza paso humanitario en Suscal\r\n#Cañar |  En el sector de Suscal, personal de Fuerzas Armadas se mantiene desplegado para garantizar la seguridad en medio de cierres viales realizados por comuneros.\r\nA través del diálogo y la mediación, se habilitó un canal humanitario que perm...",
+        "lugar": "Cañar",
+        "idea_fuerza": "Después de dialogar con la comunidad se permitió el paso de una ambulacia",
+        "enlace": "https://x.com/FFAAECUADOR/status/1974227364247650486"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Vías habilitadas y seguridad garantizada en el país\r\n\r\nLas Fuerzas Armadas del Ecuador, en coordinación con otras instituciones del Estado, ejecutan operaciones permanentes para habilitar vías obstaculizadas y restablecer el libre tránsito vehicular en distintos puntos del sur del país.\r\nGracias a e...",
+        "lugar": "Sin especificar el área de intervención",
+        "idea_fuerza": "Varios videos donde se ve a policías y  militares fuertemente armados, que resguardan vías",
+        "enlace": "https://x.com/FFAAECUADOR/status/1974255542919995514"
+      }
+    ],
+    "2025-10-04": [
+      {
+        "cuenta": "FFAA",
+        "texto": "Vías habilitadas gracias a acciones militares coordinadas\r\n\r\nLas Fuerzas Armadas del Ecuador ejecutaron operaciones militares en las provincias de #Cañar y #Azuay, con el objetivo de garantizar la libre movilidad y el desarrollo de las actividades cotidianas de la población civil.\r\nGracias al diálog...",
+        "lugar": "Azuay\nCañar",
+        "idea_fuerza": "En el video un militar afirma que después de dialogar con los líderes de la comunidad llegaron a un acuerdo para abrir la vía",
+        "enlace": "https://x.com/FFAAECUADOR/status/1974458054792843752"
+      }
+    ],
+    "2025-10-05": [
+      {
+        "cuenta": "FFAA",
+        "texto": "🚩 Operaciones militares (CAMEX) en Pedro Moncayo y Cayambe\r\n\r\n#Pichincha | Las Fuerzas Armadas, ejecuta operaciones militares de Control de Armas, Municiones y Explosivos (CAMEX) en los sectores de Cangahua, Tocachi, Cuzubamba y Pingulmí, pertenecientes a los cantones Pedro Moncayo y Cayambe.\r\n\r\n🪖 E...",
+        "lugar": "Pichincha",
+        "idea_fuerza": "Evitando cirres viales, no hacen mención al paro o manifestaciones",
+        "enlace": "https://x.com/FFAAECUADOR/status/1974944742057054283"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "📢 Habilitadas las vías Guaranda–Vinchoa-Gallo Rumi-Riobamba y Echendía–Guaranda–Ambato.\r\n\r\nLas  Fuerzas Armadas del Ecuador realizó la remoción de escombros en la vía:\r\n\r\n🛣️ Guaranda–Vinchoa-Gallo Rumi \r\n-Riobamba\r\n🛣️  Echendía–Guaranda–Ambato\r\n\r\nEncontrándose totalmente habilitadas para la circulac...",
+        "lugar": "Sierra Centro \nBolívar\nTungurahua",
+        "idea_fuerza": "Vías habilitadas, aunque no se menciona nada sobre el paro",
+        "enlace": "https://x.com/FFAAECUADOR/status/1975024789598151133"
+      }
+    ],
+    "2025-10-06": [
+      {
+        "cuenta": "FFAA",
+        "texto": "Vía E40 habilitada tras operaciones coordinadas\r\n\r\n#Cañar | Las Fuerzas Armadas del Ecuador ejecutaron operaciones militares en el sector de Suscal, con el fin de habilitar la vía E40 y garantizar la libre movilidad de la población.\r\nDurante la jornada, se realizaron trabajos de limpieza y despeje c...",
+        "lugar": "Cañar",
+        "idea_fuerza": "Se presetan videos de militares moviendo los obstáculos que los manifestantes pusieron sobre las vías en Cañar.\nEn el texto se habla del respeto a los derechos humanos",
+        "enlace": "https://x.com/FFAAECUADOR/status/1975278496051278032"
+      }
+    ],
+    "2025-10-09": [
+      {
+        "cuenta": "FFAA",
+        "texto": "🚨 Despliegue militar para garantizar la seguridad en Quito\r\n\r\nLas Fuerzas Armadas del Ecuador han desplegado un importante contingente militar en la ciudad de Quito, con el objetivo de precautelar la seguridad y mantener el orden público.\r\nEfectivos militares, apoyados por medios aéreos y terrestres...",
+        "lugar": "Pichincha",
+        "idea_fuerza": "Despliegue de militares a la ciudad de Quito",
+        "enlace": "https://x.com/FFAAECUADOR/status/1976390163635831225"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Las Fuerzas Armadas ejecutan el Plan de Defensa de Quito y operaciones en el norte del país.\r\nSe mantiene el despliegue militar en sectores estratégicos para garantizar la seguridad, el orden público y la estabilidad nacional.\r\n#FFAAContigo 🇪🇨 #EcuadorUnaSolaFuerza",
+        "lugar": "Pichincha",
+        "idea_fuerza": "Fotografías muestran el despliegue de militar de personas y logística para cubrir el plan de defensa de Quito",
+        "enlace": "https://x.com/FFAAECUADOR/status/1976398184344932403"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Vía Riobamba – Cuenca totalmente habilitada\r\n\r\nGracias al trabajo profesional y coordinado de las Fuerzas Armadas del Ecuador, se realizó la remoción de escombros y la apertura de la vía E35 Riobamba – Cuenca, en los cantones Alausí y Chunchi, la cual permanecía cerrada por la presencia de manifesta...",
+        "lugar": "Chimborazo",
+        "idea_fuerza": "Remoción de escombros puestos en la vía por manifestantes",
+        "enlace": "https://x.com/FFAAECUADOR/status/1976408137390293142"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "𝑮𝒓𝒂𝒏 𝒅𝒆𝒔𝒑𝒍𝒊𝒆𝒈𝒖𝒆 𝒅𝒆 𝑭𝒖𝒆𝒓𝒛𝒂𝒔 𝑬𝒔𝒑𝒆𝒄𝒊𝒂𝒍𝒆𝒔 𝒆𝒏 𝑸𝒖𝒊𝒕𝒐 𝒑𝒂𝒓𝒂 𝒈𝒂𝒓𝒂𝒏𝒕𝒊𝒛𝒂𝒓 𝒍𝒂 𝒔𝒆𝒈𝒖𝒓𝒊𝒅𝒂𝒅 𝒅𝒆 𝒍𝒐𝒔 𝒄𝒊𝒖𝒅𝒂𝒅𝒂𝒏𝒐𝒔\r\n#Quito | Las Fuerzas Armadas del Ecuador, despliega su personal militar y medios logísticos hacia la capital, con el propósito de reforzar la seguridad y garantizar la tranquilidad de los ciudadanos en el ...",
+        "lugar": "Pichincha",
+        "idea_fuerza": "Movilización de personal hacia Quito e Imbabura",
+        "enlace": "https://x.com/FFAAECUADOR/status/1976422836790030834"
+      }
+    ],
+    "2025-10-10": [
+      {
+        "cuenta": "FFAA",
+        "texto": "Las Fuerzas Armadas del Ecuador despliegan sus unidades militares, junto con medios logísticos y operativos, en la capital y hacia distintas zonas estratégicas del norte del país, con el objetivo de reforzar la seguridad y mantener la tranquilidad ciudadana.\r\n\r\nEstas acciones forman parte de las ope...",
+        "lugar": "Sin especificar el área de intervención",
+        "idea_fuerza": "El post cuenta con videos de los militares en diferentes aviones que se dirigen hacia Imbabura",
+        "enlace": "https://x.com/FFAAECUADOR/status/1976626178589954433"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "𝑭𝒖𝒆𝒓𝒛𝒂𝒔 𝑨𝒓𝒎𝒂𝒅𝒂𝒔 𝒓𝒆𝒇𝒖𝒆𝒓𝒛𝒂𝒏 𝒍𝒂 𝒔𝒆𝒈𝒖𝒓𝒊𝒅𝒂𝒅 𝒆𝒏 𝑸𝒖𝒊𝒕𝒐 𝒚 𝒆𝒏 𝒍𝒂 𝑺𝒊𝒆𝒓𝒓𝒂 𝑵𝒐𝒓𝒕𝒆 𝒅𝒆𝒍 𝑬𝒄𝒖𝒂𝒅𝒐𝒓\n\n#Quito | Las Fuerzas Armadas del Ecuador ejecutan un amplio despliegue de unidades militares provenientes de distintas provincias del país, con el objetivo de reforzar la seguridad en Quito y en las zonas de la Sierra ...",
+        "lugar": "Pichincha",
+        "idea_fuerza": "Se habla de un \"movimiento estratégico\" de personal y medios logísticos para contener posibles amenazas, fortalecer el control territorial y garantizar la tranquilidad ciudadana",
+        "enlace": "https://x.com/FFAAECUADOR/status/1976663904047780096"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas arriban al Aeropuerto de Latacunga para reforzar la seguridad en la capital y ejecutar operaciones en la Sierra Norte\r\n\r\nLas Fuerzas Armadas del Ecuador, sin descuidar su misión constitucional ni la seguridad en sus diferentes sectores de responsabilidad, continúan movilizando efecti...",
+        "lugar": "Cotopaxi",
+        "idea_fuerza": "Videos que dan cuenta de la cantidad de militares que van a \"reforzar\" la seguridad de la capital y la sierra norte",
+        "enlace": "https://x.com/FFAAECUADOR/status/1976695615091622038"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "𝑭𝒖𝒆𝒓𝒛𝒂𝒔 𝑨𝒓𝒎𝒂𝒅𝒂𝒔 𝒎𝒂𝒏𝒕𝒊𝒆𝒏𝒆𝒏 𝒍𝒂 𝒔𝒆𝒈𝒖𝒓𝒊𝒅𝒂𝒅 𝒆𝒏 𝑸𝒖𝒊𝒕𝒐\r\n#Quito | Las Fuerzas Armadas del Ecuador, se mantienen firmes y de forma permanente en su labor de proteger a la capital y garantizar la seguridad de todos los quiteños.\r\nEl personal militar continúa desplegado en puntos estratégicos de Quito y sus al...",
+        "lugar": "Pichincha",
+        "idea_fuerza": "Se posiciona la idea de mantener la seguridad en la ciuda de Quito, el post contiene fotografías de la ciudad militarizada",
+        "enlace": "https://x.com/FFAAECUADOR/status/1976799259912761774"
+      }
+    ],
+    "2025-10-12": [
+      {
+        "cuenta": "FFAA",
+        "texto": "El VKS es el armamento NO LETAL que posee Fuerzas Armadas. Su uso es para disuadir manifestaciones con un alto nivel de violencia, los proyectiles son de impacto cinético no letales de pintura o gas.\r\n\r\nPriorizamos la vida e integridad de aquellos manifestantes violentos, asegurando una respuesta co...",
+        "lugar": "Sin especificar el área de intervención",
+        "idea_fuerza": "Video que posiciona el uso de armamento no letal utilizado por personal militar, que requieren intervención controlada, \"enmarcado\" en el uso progresivo de la fuerza",
+        "enlace": "https://x.com/FFAAECUADOR/status/1977392624425123895"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas refuerza la seguridad en Riobamba\n#Chimborazo | En cumplimiento del Decreto Ejecutivo N.º 174, Fuerzas Armadas desplegó personal militar en puntos estratégicos de la ciudad de Riobamba, con el objetivo de proteger y garantizar la seguridad ciudadana ante posibles alteraciones del ord...",
+        "lugar": "Chimborazo",
+        "idea_fuerza": "Posicionar que buscan proteger la infraestructura estratégica y proteger derechos",
+        "enlace": "https://x.com/FFAAECUADOR/status/1977443476695552092"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "FUERZAS ARMADAS INFORMA A LA CIUDADANÍA  🇪🇨\r\n\r\nLas Fuerzas Armadas del Ecuador reafirman su compromiso con la paz, la protección de los derechos fundamentales y la asistencia a nuestros compatriotas.\r\n\r\n#EcuadorUnaSolaFuerza\r\n#FFAAContigo",
+        "lugar": "Imbabura",
+        "idea_fuerza": "En el comunicado se menciona que se resguardará el convoy humanitario que se trasladará el 13 de octubre hacia la provincia de Imbabura, afectada por bloqueos my actos de violencia protagonizados por grupos de manifestantes desafectos a la normal legal",
+        "enlace": "https://x.com/FFAAECUADOR/status/1977503456429846808"
+      }
+    ],
+    "2025-10-13": [
+      {
+        "cuenta": "FFAA",
+        "texto": "El señor General Henry Delgado, Jefe del Comando Conjunto de las Fuerzas Armadas, felicita al personal militar por la eficiente ejecución del plan de defensa de la ciudad de Quito",
+        "lugar": "Pichincha",
+        "idea_fuerza": "Felicitaciones por participar en el plan de defensa y protección de la ciudad de Quito. Aunque no se menciona la \"amenaza\"",
+        "enlace": "https://x.com/FFAAECUADOR/status/1977864326330393034"
+      }
+    ],
+    "2025-10-14": [
+      {
+        "cuenta": "FFAA",
+        "texto": "¡IMBABURA, NO ESTÁ SOLA!\r\n\r\nLas Fuerzas Armadas del Ecuador actúan con firmeza para proteger la vida, la paz y la seguridad de cada familia.\r\n\r\n#FFAAContigo \r\n#ecuadorunasolafuerza",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Video que posiciona la idea de que las personas que se manifestan son terroristas - enemigo interno.\n\"Quien se oponga, actuaremos con toda la fuerza que la patria nos proporciona\"\n\"Vivir sin miedo es innegociable\"",
+        "enlace": "https://x.com/FFAAECUADOR/status/1977888739692069075"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "IMBABURA NO ESTÁN SOLOS \r\n\r\nLa emoción y el profundo agradecimiento de nuestra gente al paso del convoy humanitario son la mejor prueba de que el Ecuador anhela la paz.\r\n\r\nImbabura nos da la fuerza para cumplir nuestra misión de devolver la paz, la tranquilidad y la libertad a una provincia que ha s...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Hay un video con el paso del \"Convoy Humanitario\", en este una persona grita: \"libertad, gracias, no se rindan\".",
+        "enlace": "https://x.com/FFAAECUADOR/status/1977941034085617791"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "𝑺𝒐𝒍𝒅𝒂𝒅𝒐𝒔 𝒓𝒆𝒔𝒖𝒍𝒕𝒂𝒏 𝒉𝒆𝒓𝒊𝒅𝒐𝒔 𝒅𝒖𝒓𝒂𝒏𝒕𝒆 convoy humanitario 𝒆𝒏 𝑶𝒕𝒂𝒗𝒂𝒍𝒐\r\n\r\n#Imbabura | Las Fuerzas Armadas del Ecuador, informan que durante el cumplimiento de operaciones militares de seguridad y mantenimiento del orden público en la ciudad de #Otavalo, se registraron incidentes que dejaron varios uniforma...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Militar herido por manifestantes armados.\nDaño a bienes, vehículos militares.\nHay fotografías de la persona herida",
+        "enlace": "https://x.com/FFAAECUADOR/status/1978137403198980125"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Militares heridos son trasladados vía aérea tras ataques en Otavalo\r\n\r\n#Imbabura | Durante las operaciones de resguardo a convoy humanitario y despeje de víasen la ciudad de #Otavalo, personal militar fue objeto de ataques violentos perpetrados por grupos que utilizaron bombas molotov, petardos, mac...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Posicionan a las personas que se manifiestan como como violentas.\nCuenta con fotografías de militares heridos",
+        "enlace": "https://x.com/FFAAECUADOR/status/1978217758165774740"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas brindan apoyo humanitario en Otavalo\r\n#Imbabura | Las Fuerzas Armadas del Ecuador, realizaron el transporte aéreo de bombonas de gas e insumos médicos hacia la ciudad de #Otavalo, como parte de las operaciones militares de despeje de vías y restablecimiento del orden público.\r\nEstas ...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "\"Convoy Humanitario\", tienen fotografías",
+        "enlace": "https://x.com/FFAAECUADOR/status/1978219476140363835"
+      },
+      {
+        "cuenta": "Policía Nacional",
+        "texto": "#IMPORTANTE \r\n\r\nUNIDAD Y COMPROMISO POR #IMBABURA 🇪🇨\r\n\r\nEl esfuerzo constante y articulado permitió el arribo a la ciudad de #Otavalo de asistencia humanitaria, entendemos  a la ciudadanía afectada por los cierres viales, garantizamos la seguridad y el orden público en la zona.\r\n\r\nMás detalles en el...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Acompañan convoy humanitario",
+        "enlace": "https://x.com/PoliciaEcuador/status/1978257524207108137"
+      },
+      {
+        "cuenta": "Policía Nacional",
+        "texto": "02 APREHENDIDOS CON ARMA  DE FUEGO DURANTE MANIFESTACIONES EN #OTAVALO \r\n\r\nLabores de inteligencia policial permitieron su aprehensión.\r\n\r\nINDICIOS: \r\narma de fuego, cartuchos, bomba molotov artesanal y equipo de protección. \r\n\r\n#ServirYProtegerConFirmeza",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Dos personas arrestadas con armas de fuego durante manifestaciones en Otavalo",
+        "enlace": NaN
+      },
+      {
+        "cuenta": "Policía Nacional",
+        "texto": "HABILITAMOS LA VÍA LOJA - SARAGURO\r\n\r\nTras los bloqueos registrados, la Policía Nacional restableció la movilidad en los sectores San Vicente y Sinicapac, que conectan las provincias de #Loja y #Azuay. Esto se logró mediante un operativo que incluyó limpieza de escombros, retiro de obstáculos y cont...",
+        "lugar": NaN,
+        "idea_fuerza": NaN,
+        "enlace": "https://x.com/PoliciaEcuador/status/1978249521449554021"
+      }
+    ],
+    "2025-10-15": [
+      {
+        "cuenta": "FFAA",
+        "texto": "☑️ Agradecimiento al Hospital San Luis de #Otavalo, por su atención médica a civiles y militares durante las manifestaciones del 14 de octubre. 🇪🇨",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Agradecimiento al Hospital de Otavalo por atender a civiles y militares",
+        "enlace": "https://x.com/FFAAECUADOR/status/1978480364826877967"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Imbabura ¡Las Fuerzas Armadas están con ustedes!\r\n\r\nNuestros uniformes representan la disciplina y el compromiso de defender los sueños de un pueblo que quiere vivir en paz\r\n\r\n#ffaacontigo\r\n#ecuadorunasolafuerza",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Posicionar el discurso de la paz y de el enemigo interno.\n\nVideo de 35 minutos: \"Que Dios les bendiga, ni un paso atrás\".\n\n\"Enemigos de la patria\".\n\n\"Imbabura no está sola\"",
+        "enlace": "https://x.com/FFAAECUADOR/status/1978499767190614433"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Fuerzas Armadas realiza transporte aéreo de vivieres a Imbabura\r\n\r\n#Imababura | Fuerzas Armadas ejecutó operaciones aéreas de transporte de víveres y vituallas hacia distintos sectores de la provincia de #Imbabura, afectados por el aislamiento debido al cierre de vías.\r\nEstas misiones tienen como pr...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Posicionan que hay desabastecimiento en algunos sectores por el cierre de las vías",
+        "enlace": "https://x.com/FFAAECUADOR/status/1978523277094977895"
+      },
+      {
+        "cuenta": "FFAA",
+        "texto": "Operaciones militares permiten recuperar la normalidad en Imbabura\r\n\r\n#Imbabura | Las Fuerzas Armadas del Ecuador, ejecutan operaciones militares terrestres y aéreas que permiten restablecer progresivamente la normalidad, garantizando el acceso a las vías, el orden y la seguridad en la provincia.\r\nM...",
+        "lugar": "Imbabura",
+        "idea_fuerza": "Posicionan la idea de que la situación está normalizada",
+        "enlace": "https://x.com/FFAAECUADOR/status/1978556224841932964"
+      }
+    ]
+  }
+}

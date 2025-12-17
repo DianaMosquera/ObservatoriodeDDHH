@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "generado": "2025-12-16T09:46:54.394587",
+    "version": "2.1",
+    "fuente": "datos2025_limpio.csv"
+  },
+  "eventos": [
+    {
+      "date": "2025-09-12",
+      "day": "Antes del paro",
+      "location": "Quito",
+      "title": "Gobierno de Ecuador anuncia retiro de subsidio a diesel",
+      "summary": "El gobierno de Daniel Noboa anunció la eliminación del subsidio al diésel a través del Decreto Ejecutivo No 126, llevando el precio del galón de 1,80 a 2,80 dólares a partir del 13 de septiembre, hasta el 11 de diciembre de 2025, después de lo que el precio se ajustaría según un sistema de bandas de variación que dependerán del precio internaciónal de los combustibles.",
+      "category": "anuncio",
+      "source": "https://www.primicias.ec/economia/eliminacion-subsidio-diesel-daniel-noboa-ecuador-pasajes-104415/",
+      "link": "1. https://www.teleamazonas.com/actualidad/noticias/economia/ines-manzano-eliminacion-subsidio-diesel-cerrar-llave-grupos-criminales-102501/   https://www.instagram.com/p/DOhZRqSDpeN/\n\n2. https://x.com/ComunicacionEc/status/1966652778157052275/photo/1"
+    },
+    {
+      "date": "2025-09-22",
+      "day": "1",
+      "location": "Imbabura",
+      "title": "Incio del paro naciónal convocado por la CONAIE",
+      "summary": "Varias comunidades de Imbabura se sumaron al paro convocado por la CONAIE. Varias vías están cerradas en la provincia.\nAdemás, se registra el bloqueo de cuentas de dos personas defensoras de derechos humanos.\n\nContexto:\nMencionar qué otras causas de descontento se han conjugado para anunciar el paro naciónal.",
+      "category": "anuncio",
+      "source": "",
+      "link": ""
+    },
+    {
+      "date": "2025-09-22",
+      "day": "1",
+      "location": "Imbabura",
+      "title": "Policía reprime a manifestantes en San Pablo en la provincia de Imbabura, así como en Cayambe, San Miguel del Común en Pichincha",
+      "summary": "Se registraron fuertes enfrentamientos entre militares y policías en contra de los manifestantes que paralizaron la circulación de la vía E35 en Imbabura. Manifestaciónes se registraron tambiénen Otavalo, El Cajas, San Pablo y Cotacachi. \n\nAlgo similar ocurrió en Pichincha en las comunidades indígenas de Pucará de Pesillo, La Chimba, Turucucho y Muyurcu en Cayambe; así como en San Miguel del Común. Las personas que se manifestaron lo hicieron por la eliminación del subsidio al diesel.",
+      "category": "represión",
+      "source": "",
+      "link": ""
+    },
+    {
+      "date": "2025-09-22",
+      "day": "1",
+      "location": "Azuay, Cotopaxi, Chimborazo, Imbabura y Pichincha",
+      "title": "Bloqueo de vías en 5 provincias de Ecuador",
+      "summary": "La provincia de Imbabura fue el escenario de los enfrentamientos más fuertes entre manifestantes y las fuerzas del orden",
+      "category": "censura",
+      "source": "",
+      "link": ""
+    },
+    {
+      "date": "2025-09-22",
+      "day": "1",
+      "location": "Imbabura",
+      "title": "Detienen a mujer por impedir que policías disparen a manifestantes",
+      "summary": "La Policía Naciónal detiene a una mujer que intentaba evitar que los agentes del GIR disparen directamente al cuerpo de los manifestantes en Otavalo. Dos días después la jóven fue libertada. De acuerdo con sus declaraciones, recibió maltratos de parte de miembros de la Policía Naciónal, quienes la acusaron de lanzar bombas molotov, palos y piedras en contra de los uniformados. Esto a pesar de los videos que demostraban que no actuaba de forma violenta.",
+      "category": "anuncio",
+      "source": "",
+      "link": ""
+    },
+    {
+      "date": "2025-09-22",
+      "day": "1",
+      "location": "Imbabura",
+      "title": "Manifestante es atropellado por vehículo que salió del destacamiento de la policía",
+      "summary": "Un manifestante es atropellado por un vehículo. El hecho quedó registrado en un video, varios medios de comunicacón lo reportan. Lanceros Digitales reporta que el vehículo habría salido de un destacamiento policial. El gobierno y la policía naciónal no se pronunciaron al respecto. La forma en que el evento es reportado varía dependiendo del medio de comunicación. En el video se observa que el vehículo embiste al manifestante mientras algunos medios lo reportan como un intento de escapar de los manifestantes.",
+      "category": "represión",
+      "source": "Lanceros Digitales\nKapari Comunicación\nLa Posta\nImbaburaHoy",
+      "link": ""
+    },
+    {
+      "date": "2025-09-22",
+      "day": "1",
+      "location": "Imbabura",
+      "title": "Manifestantes queman un cuartel de la policía naciónal en la Otavalo",
+      "summary": "Decenas de medios de comunicación del país e internaciónales reportan que un cuartel de policía en Otavalo fue atacado, dejando dos policías heridos y varios bienes destrozados. Mensajes de ciudadanos particulares afirman que esta acción fue en respuesta al atropellamiento de un manifestante por parte de la policía naciónal. En ningún medio se reporta esta información.",
+      "category": "violencia",
+      "source": "https://www.elcomercio.com/actualidad/politica/ataque-al-cuartel-de-policia-en-otavalo-deja-heridos-y-detenidos-en-primer-dia-del-paro/",
+      "link": ""
+    },
+    {
+      "date": "2025-09-22",
+      "day": "1",
+      "location": "Imbabura",
+      "title": "Ministro del Interior, John Reimberg afirma que detuvieron a más de 50 personas después de las manifestaciónes en Otavalo.",
+      "summary": "Ministro del Interior afirma que hay más de 50 detenidos y vincula a dos de estos al Tren Aragua mientras que GK señala que es muy difícil saber si alguien pertenece a la organización delictiva y señala otras razones para mencionar al grupo terrorista transnaciónal.",
+      "category": "represión",
+      "source": "",
+      "link": "1. https://www.instagram.com/p/DO_h3k0DDRd/?hl=es"
+    },
+    {
+      "date": "2025-09-23",
+      "day": "2",
+      "location": "Imbabura",
+      "title": "CONAIE denuncia la detención arbitraria de 50 personas en Imbabura",
+      "summary": "Durante el tercer día de paro la CONAIE denunció la detención de 50 personas que se manifestaban en contra del incremento al diesel. Paralelamente, las siete naciónalidades de la Amazonía ecuatorinana decidieron unirse al paro naciónal el cual busca la derogación del Decreto Ejecutivo 126.",
+      "category": "detenciones",
+      "source": "",
+      "link": ""
+    },
+    {
+      "date": "2025-09-23",
+      "day": "2",
+      "location": "Cotopaxi",
+      "title": "Latacunga sigue militarizada durante el segundo día de paro naciónal convocado por la CONAIE",
+      "summary": "Durante el paro naciónal, la sede de gobierno Ecuatoriano se encuentra en Latacunga. Varias organizaciónes como el MICC convocaron a marchas para el tercer día de paro.",
+      "category": "represión",
+      "source": "",
+      "link": ""
+    },
+    {
+      "date": "2025-09-23",
+      "day": "2",
+      "location": "Escala nacional",
+      "title": "Policía reprime a manifestantes en varios puntos de la ciudad de Quito.\nEn otras provincias se registran movilizaciones",
+      "summary": "Durante el segundo día de paro naciónal, se registró una fuerte represión a las personas que salieron a las calles a protestar por el incremento del precio del diesel. Entre ellos se encontraban estudiantes, artistas, trabajadores, quienes recibieron golpes y gases lacrimógenos, algunos incluso en el rostro y boca para impedir que puedan decir su nombre frente a las cámaras que graban lo sucedido.\nEntre el primer y segundo día de paro naciónal el Ministerio del Interior registró 59 personas detenidas a escala naciónal.",
+      "category": "represión",
+      "source": "",
+      "link": ""
+    },
+    {
+      "date": "2025-09-24",
+      "day": "3",
+      "location": "Imbabura",
+      "title": "Otavalo recibe al presidente con gritos de \"Fuera Noboa, fuera\"",
+      "summary": "[Resumen pendiente de completar - sofi poner lo de los disparos contra la gente (25 septiembre)...]",
+      "category": "violencia",
+      "source": "",
+      "link": ""
+    },
+    {
+      "date": "2025-09-24",
+      "day": "3",
+      "location": "Cotopaxi",
+      "title": "TV MICC fuera del aire, el gobierno justifica la medida por \"seguridad naciónal\"",
+      "summary": "El Movimiento Indígena Campesino de Cotopaxi (MICC) realizó una denuncia pública frente a la censura a la libertad de expresión. La señal del medio comunitario TV MICC fue suspendida por la ARCOTEL de forma arbitraria. El cual era transmitido en Latacunga, Salcedo, Ambato, Cevallos, Quero, Pelileo, Pillaro y Tisaleo. La decisión se justificó con el argumento de \"precautelar el orden público y la seguridad naciónal\".",
+      "category": "censura",
+      "source": "1. Foro Permanente para las Cuestiones Indígenas de las Naciones Unidas: https://social.desa.un.org/es/issues/los-pueblos-indigenas/news/llamado-urgente-para-proteger-los-derechos-de-los-pueblos",
+      "link": ""
+    },
+    {
+      "date": "2025-09-24",
+      "day": "3",
+      "location": "Pichincha",
+      "title": "CNE recibe dictmamen favorable de la Corte Constitucional sobre la consulta popular que hace referencia a la convocatoria a una Asamblea Constituyente",
+      "summary": "Durante el tercer día protesta, Diana Atamaint, presidenta del CNE publicó un comunicado anunciando que la Corte Constitucional emitió un dictamen favorable para la pregunta sobre la Asamblea Constitutyente. A partir de esta fecha corre el plazo para convocar a la ciudadanía a las urnas para consultar a la población si quiere o no una nueva Constitución.",
+      "category": "anuncio",
+      "source": "CNE",
+      "link": ""
+    },
+    {
+      "date": "2025-09-24",
+      "day": "3",
+      "location": "Escala nacional",
+      "title": "Número de detenciónes en el tercer día de paro naciónal asciende a 85 personas",
+      "summary": "De acuerdo con información proporcionada por la Alianza de Organizaciónes por los Derechos Humanos del Ecuador presentó 85 detenciónes (54 verificadas y 31 sin información). La Alianza considera que hay un subregistro de personas heridas en el contexto del paro.",
+      "category": "detenciones",
+      "source": "",
+      "link": ""
+    },
+    {
+      "date": "2025-09-25",
+      "day": "4",
+      "location": "Imbabura",
+      "title": "CONAIE advierte de los traslados de 12 ciudadanos detenidos en Otavalo en las manifestaciónes a cárceles en otras provincias",
+      "summary": "[Resumen pendiente de completar]",
+      "category": "represión",
+      "source": "",
+      "link": "https://x.com/FFAAECUADOR/status/1971690069388837163"
+    },
+    {
+      "date": "2025-09-25",
+      "day": "4",
+      "location": "Imbabura\nAzuay",
+      "title": "Continua la represión contra manifestantes en Cuenca y Otavalo",
+      "summary": "En Cuenca una marcha pacífica convocada por la Plataforma de organizaciónes en Defensa de lo Público, realizó un plantón relacionado al proyecto minero de Loma Larga. La policía naciónal dispersó la marcha y detuvo a dos personas. \nEn Otavalo la represión contra las personas que se manifestaban en el cuarto día de protestas se intensificó. Hubo una detención y varias personas heridas.",
+      "category": "detenciones",
+      "source": "",
+      "link": ""
+    },
+    {
+      "date": "2025-09-26",
+      "day": "5",
+      "location": "Pichincha",
+      "title": "Asamblea Naciónal aprobó la Ley de Fortalecimiento Crediticio para el IEES y el BIESS",
+      "summary": "En 2024 el Instituto Ecuatoriano de Seguridad Social (IESS) contaba con más de tres millones de personas afiliadas, quienes tenían acceso a servicios de salud, préstamos hipotecarios, préstamos quirografarios, fondos de reserva, jubilación, entre otros. De acuerdo con información proporcionada por el IESS, en 2024 la institución brindaba servicio a más de ocho millones de personas en todo el Ecuador.\n\nEl 28 de agosto de 2025 Daniel Noboa envió a la Asamblea Naciónal la Ley de Fortalecimiento Crediticio para el IESS y el BIESS.",
+      "category": "represión",
+      "source": "1. Datos del IESS: https://www.iess.gob.ec/noticias/-/asset_publisher/4DHq/content/en-2024-se-registro-la-cifra-mas-alta-de-afiliados-en-la-historia-del-iess/10174?\n\nredirect=https%3A%2F%2Fwww.iess.gob.ec%2Fnoticias%3Fp_p_id%3D101_INSTANCE_4DHq%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_pos%3D1%26p_p_col_count%3D2%26_101_INSTANCE_4DHq_advancedSearch%3Dfalse%26_101_INSTANCE_4DHq_keywords%3D%26_101_INSTANCE_4DHq_delta%3D6%26_101_INSTANCE_4DHq_cur%3D8%26_101_INSTANCE_4DHq_andOperator%3Dtrue?mostrarNoticia=1\n\n2. Registro Oficial: https://strapi.lexis.com.ec/uploads/Registro_Oficial_Quinto_Suplemneto_No_136_1_de_octubre_de_2025_LEXIS_Ecuador_e17883a402.pdf\n\n3. Primicias: https://www.primicias.ec/economia/ley-fortalecimiento-crediticio-biess-creditos-hipotecarios-iess-106639/",
+      "link": "1. https://www.eluniverso.com/noticias/politica/comision-de-desarrollo-economico-aprueba-informe-para-segundo-debate-del-proyecto-urgente-de-fortalecimiento-crediticio-que-busca-cambios-en-el-biess-nota/\n\n2. https://www.facebook.com/asambleanacional/videos/es-leyla-asamblea-nacional-aprob%C3%B3-la-ley-de-fortalecimiento-y-sostenibilidad-cre/1521280265729621/\n\n3. https://www.facebook.com/MinisterioDeGobiernoEcuador/posts/la-nueva-ley-reforma-urgentemente-el-sistema-previsional-y-financiero-del-biess-/1263001322534039/"
+    },
+    {
+      "date": "2025-09-26",
+      "day": "5",
+      "location": "Pichincha",
+      "title": "Corte Constitucional del Ecuador declara inconstitucional a la Ley orgánica de Solidaridad Naciónal",
+      "summary": "La Ley Orgánica de Solidaridad Naciónal fue aprobada el 7 de junio de 2025, contó con 84 votos, en su gran mayoría de la bancada oficialista. De acuerdo con información publicada en la página web de la Asamblea Naciónal, la norma enviada con carácter económico urgente por Daniel Noboa, establecía medidas legales y fiscales para combatir el financiamiento de las mafias, proteger a la población civil, fortalecer las fuerzas del orden y reactivar económicamente las zonas afectadas por la violencia.",
+      "category": "anuncio",
+      "source": "1. Asambela Nacional: https://www.asambleanacional.gob.ec/es/noticia/106719-asamblea-nacional-aprueba-en-tiempo-record-ley-para\n\n2. Corte Constitucional: https://www.corteconstitucional.gob.ec/la-corte-constitucional-se-pronuncia-sobre-la-ley-de-integridad-publica-la-ley-de-solidaridad-nacional-y-propuestas-de-consulta-popular-y-de-reforma-constitucional/\n\n3. Corte Constitucional: https://esacc.corteconstitucional.gob.ec/storage/api/v1/10_DWL_FL/e2NhcnBldGE6J3RyYW1pdGUnLCB1dWlkOicyNzU4MjA4Zi0yMzQxLTQyYjgtOThkZC1kNzNkM2ZjNjRiMTEucGRmJ30=",
+      "link": "1.  https://www.primicias.ec/politica/ley-solidaridad-reglamento-corte-constitucional-elimina-conflicto-armado-interno-106165/\n\n2. https://www.cne.gob.ec/el-16-de-noviembre-los-ecuatorianos-decidiran-en-las-urnas-sobre-4-preguntas/  \n\n3. https://www.elcomercio.com/actualidad/politica/tras-incostitucionalidad-ley-solidaridad-gobierno-recurre-facultades-controlar-paro/\n"
+    },
+    {
+      "date": "2025-09-26",
+      "day": "5",
+      "location": "Pichincha",
+      "title": "Corte Constitucional del Ecuador declara inconstitucionalidad de la Ley de Integridad pública",
+      "summary": "Por su parte, la Ley de Integridad Pública fue aprobada el 24 de junio de 2025 también contó con el apoyo de 84 asambleístas. De acuerdo con información publicada en la página web de la Asamblea Naciónal, entre los objetivos de esta Ley se encontraba el combate a la corrupción en el sector público; el fortalecimiento de la transparencia, la ética y la eficiencia en la gestión pública; reformar ámbitos institucionales, de contratación pública, gestión de la función pública y erradicación de redes delictivas; entre otros.",
+      "category": "anuncio",
+      "source": "1. Asamblea Nacional: https://www.asambleanacional.gob.ec/es/blogs/carmen-tiupul-urquizo/107166-el-pleno-aprueba-ley-organica-de\n\n2. Primicias:  https://www.primicias.ec/politica/corte-constitucional-sentencia-ley-integridad-publica-solidaridad-nacional-105960/",
+      "link": ""
+    },
+    {
+      "date": "2025-09-27",
+      "day": "6",
+      "location": "Imbabura",
+      "title": "Continua el paro naciónal en varios puntos del país",
+      "summary": "Durante el sexto día de protestas la provincia de Imbabura fue el lugar en donde se registraron los mayores incidentes y represión de las fuerzas del orden. De acuerdo con un artículo publicado en el diario La Hora, a las demandas iniciales del movimiento indígena se sumaron: la liberación de 12 personas detenidas el 22 de septiembre de 2025, quienes se encontraban procesadas bajo el cargo de terrorismo.",
+      "category": "represión",
+      "source": "1.  La Hora: https://www.lahora.com.ec/imbaburacarchi/Imbabura-indigenas-ratifican-el-paro-y-exigen-libertad-de-detenidos-20250926-0036.html\n\n2. El Universo: https://www.eluniverso.com/noticias/politica/paro-nacional-protestas-en-ecuador-conaie-imbabura-otavalo-detenidos-policia-nacional-daniel-noboa-terrorismo-nota\n\n3. TeleSur: https://www.telesurtv.net/ecuador-indigenas-reclaman-liberacion-presos/",
+      "link": "1. https://www.eluniverso.com/noticias/politica/paro-nacional-protestas-en-ecuador-conaie-imbabura-otavalo-detenidos-policia-nacional-daniel-noboa-terrorismo-nota/?utm_source=chatgpt.com\n\n2. https://www.ecuavisa.com/noticias/seguridad/44-detenidos-antecedentes-penales-paro-nacional-BG10166645"
+    },
+    {
+      "date": "2025-09-28",
+      "day": "7",
+      "location": "Imbabura",
+      "title": "Escalada de violencia en el séptimo día de paro: fallece Efraín Fuerez",
+      "summary": "Durante el séptimo día de paro naciónal se registró el deceso del comunero Efraín Fuerez, indígena perteneciente a la naciónalidad Kichwa, oriundo de Cotacachi, población perteneciente a la provincia de Imbabura y padre de familia. Tras recibir tres impactos de bala, Efraín Fuerez murió en un confuso enfrentamiento con militares registrado en la Panamericana Norte.",
+      "category": "violencia",
+      "source": "1. Portal Gk: https://gk.city/2025/09/29/muerte-efrain-fuerez-paro-nacional-2025/\n\n\n2. CONAIE:  https://x.com/CONAIE_Ecuador/status/1972345338284683554 \n\n3. Primicias: https://www.primicias.ec/sucesos/organismo-derechos-humanos-denuncia-muerte-comunero-protestas-cotacahi-106173/ \n\n4. INREDH: https://x.com/inredh1/status/1972307030481186907\n\n5. Red social X de la FGE: https://x.com/FiscaliaEcuador/status/1972376302264164744?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1972376302264164744%7Ctwgr%5E4289755e9314945ee035548b1364c2089d68ea8c%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.radiopichincha.com%2Fasesinato-efrain-fuerez-extralimitacion-acto-servicio-ejecucion-extrajudicial%2F \n\n6. BN Periodismo: https://www.youtube.com/watch?v=u3k5LICd5Jw",
+      "link": "1. https://x.com/zaidarovira/status/1972406222591799526?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1972406222591799526%7Ctwgr%5E725e8ece4b4e761691e9897f47ceef6b1a80de26%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.elcomercio.com%2Factualidad%2Fpolitica%2Fministra-de-gobierno-se-pronuncia-sobre-los-hechos-en-cotacachi-y-la-situacion-del-paro-en-ecuador%2F\n\n2. https://www.elcomercio.com/actualidad/politica/ministra-de-gobierno-se-pronuncia-sobre-los-hechos-en-cotacachi-y-la-situacion-del-paro-en-ecuador/\n\n3. https://www.youtube.com/watch?v=XsJA3Rk2noE\n\n4. https://www.vistazo.com/politica/nacional/2025-10-01-reimberg-cuestiona-video-militares-muerte-comunero-efrain-fuerez-paro-nacional-EC10218590\n\n "
+    },
+    {
+      "date": "2025-09-28",
+      "day": "7",
+      "location": "Pichicha",
+      "title": "Fiscalía General del Estado (FGE) abre una investigación por un presunto delito de enriquecimiento no justificado de 61 personas",
+      "summary": "Mientras en el país se desarrollaba el séptimo día del paro naciónal, la CONAIE denunció que la Fiscalía General del Estado (FGE) abrió investigaciones por presunto enriquecimiento ilícito dirigido hacia varios de sus dirigentes. La organización indígena interpretó estos procesos como una forma de criminalización, persecución política y judicial.",
+      "category": "violencia",
+      "source": "1. Vistazo: https://www.vistazo.com/actualidad/nacional/2025-09-27-conaie-acusa-gobierno-perseguir-fiscalia-lideres-protestas-NI10188588 \n\n2. Expedientes: https://expedientes.ec/fiscalia-investiga-a-58-lideres-sociales-por-presunto-enriquecimiento-privado-no-justificado/\n\n3. Ecuavisa.noticias: https://www.tiktok.com/@ecuavisa.noticias/video/7555700036475178251\n\n4. La Hora: https://www.lahora.com.ec/sociedad/Fundacion-Pachamama-denuncia-congelamiento-de-cuentas-y-proceso-judicial-contra-su-presidenta-20250927-0012.html\n\n5. El Comercio: https://www.elcomercio.com/actualidad/negocios/entro-vigencia-ley-que-regula-fundaciones-ecuador/  \n\n6. Primicias: https://gk.city/2025/09/24/bloqueos-bancarios-lideres-indigenas-conaie-fundacion-pachamama/\n\n7. Gk: https://gk.city/2025/08/26/ley-transparencia-social-regular-ongs/",
+      "link": "1. https://www.eluniverso.com/noticias/politica/fiscalia-investiga-siete-delitos-contexto-paro-nacional-tres-analizados-atraves-investigaciones-previas-siete-mediante-procesos-penales-nota/\n\n2. https://www.instagram.com/p/DPeifcxlKRY/?utm_source=chatgpt.com\n\n3. https://www.instagram.com/p/DPC3nxqjbQw/?hl=es&img_index=1"
+    },
+    {
+      "date": "2025-09-28",
+      "day": "7",
+      "location": "Imbabura",
+      "title": "¿El Convoy que se trasladó hacia Imbabura era \"humanitario\"?",
+      "summary": "El domingo 28 de octubre, durante la noche, un convoy integrado por al menos 100 vehículos salió del aeropuerto Mariscal Sucre ubicado en la ciudad de Quito hacia la provincia de Imbabura: hasta ese momento considerado como el epicentro del paro naciónal de 2025. De acuerdo con información proporcionada por la vocera de gobierno Carolina Jaramillo, el convoy estuvo liderado por Daniel Noboa, en este también participaron varios delegados de la Organización de las Naciónes Unidas (ONU), así como personal de la Unión Europea en Ecuador.",
+      "category": "censura",
+      "source": "1. El Comercio: https://www.elcomercio.com/actualidad/gobierno-desplaza-convoy-humanitario-y-de-seguridad-hacia-imbabura/",
+      "link": "1. https://www.comunicacion.gob.ec/manifestantes-atacan-con-violencia-convoy-humanitario-liderado-por-noboa-y-cuerpo-diplomatico/\n\n2. https://x.com/FFAAECUADOR/status/1972371357221404675  \n\n\n3."
+    },
+    {
+      "date": "2025-09-29",
+      "day": "8",
+      "location": "Pichincha",
+      "title": "Advertencia de ONU Derechos Humanos: los militares no están entrenados para enfrentar situaciones de conflictividad social y que su despliegue representa un riesgo real para las personas que se manifiestan en las calles",
+      "summary": "El 19 de septiembre de 2015, la Oficina del Alto Comisionado de las Naciónes Unidas para los Derechos Humanos en América del Sur pidió que se inicie un \"diálogo urgente en Ecuador, tras los hechos de violencia ocurridos en el marco de recientes protestas sociales convocadas por movimientos indígenas y otros sectores en el país\".",
+      "category": "represión",
+      "source": "1. ONU Derechos Humanos: https://acnudh.org/ecuador-onu-derechos-humanos-pide-dialogo-urgente-tras-muerte-durante-protesta/?utm\n\n2. Red soocial X de Mary Lawlor: https://x.com/MaryLawlorhrds/status/1972648033834950770 \n\n3.\n\n\n",
+      "link": "1. https://www.elcomercio.com/actualidad/politica/onu-insta-dialogo-urgente-ecuador-violencia-protestas-paro/?utm\n\n2. https://www.expreso.ec/actualidad/politica/la-onu-pide-iniciar-un-dialogo-urgente-en-ecuador-tras-la-muerte-de-un-manifestante-259017.html?utm\n\n3. https://www.primicias.ec/politica/gobierno-ecuador-daniel-noboa-paro-nacional-cotacachi-militares-protestas-terroristas-106204/?utm \n"
+    },
+    {
+      "date": "2025-10-01",
+      "day": "11",
+      "location": "Pichincha",
+      "title": "Se interpondrá una denuncia penal por ejecución extrajudicial de Efraín Fuerez",
+      "summary": "El martes 29 de septiembre se realizó el entierro del comunero Efraín Fuerez en Quiroga, una comunidad indígena ubicada en el cantón Cotacachi, perteneciente a la provincia de Imbabura. Durante el emotivo acto de despedida, familiares, amigos y dirigencia del movimiento indígena reclamaron a las autoridades justicia y reparación frente a la situación en que Fuerez falleció.",
+      "category": "anuncio",
+      "source": "1. Red social X de la CONAIE https://x.com/CONAIE_Ecuador/status/1973158178293506122?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1973158178293506122%7Ctwgr%5E7627aaedc628bac6d99ec7899b06f5cdd4b5289c%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.teleamazonas.com%2Factualidad%2Fnoticias%2Fecuador%2Fefrain-fuerez-primer-fallecido-paro-enterrado-parroquia-quiroga-cotacachi-103487%2F \n\n2. Red Social Facebook BN Periodismo: https://www.facebook.com/bnperiodismo/videos/pedro-granja-anunci%C3%B3-que-se-encuentra-en-curso-una-denuncia-penal-por-la-ejecuci/1501380134401960/ \n\n2. Ministerio de Defensa: https://www.defensa.gob.ec/wp-content/uploads/downloads/2021/03/COIP_act_feb-2021.pdf?utm_source=chatgpt.com  \n\n3. Radio Pichincha:. https://www.radiopichincha.com/jefe-del-comando-conjunto-de-las-ff-aa-sera-demandado-por-la-presunta-ejecucion-extrajudicial-de-efrain-fuerez/\n\n4. X de Radio Pichincha: https://x.com/radio_pichincha/status/1973767340996039114?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1973767340996039114%7Ctwgr%5Eacccb41fab541cd4990c25e4752e72c93b139bdb%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.radiopichincha.com%2Fjefe-del-comando-conjunto-de-las-ff-aa-sera-demandado-por-la-presunta-ejecucion-extrajudicial-de-efrain-fuerez%2F \n\n5.  https://www.radiopichincha.com/asesinato-efrain-fuerez-extralimitacion-acto-servicio-ejecucion-extrajudicial/ \n ",
+      "link": ""
+    },
+    {
+      "date": "2025-10-02",
+      "day": "11",
+      "location": "Pichincha",
+      "title": "Gobierno de Daniel Noboa amplía el feriado del 9 de octubre para \"impulsar el turismo\", lo hace en medio de una grave vulneración de derechos en las jornadas de protesta del paro naciónal 2025",
+      "summary": "A través del Decreto Ejecutivo No 172, el presidente de Ecuador, Daniel Noboa extendió el feriado naciónal por la Independencia de Guayaquil. Debido al carácter “de última hora” del Decreto, el feriado tomó por sorpresa a la ciudadanía y al sector turístico del país. Además, el anuncio se realizó en medio del paro naciónal, de vías cerradas, de interrupción de servicios, de mucha incertidumbre y de una fuerte represión de los manifestantes, que hasta ese momento contaban con una persona fallecida, centenares de heridas, varias desaparecidas, ot...",
+      "category": "anuncio",
+      "source": "1. Primicias: https://www.primicias.ec/politica/daniel-noboa-decreto-feriado-ecuador-octubre2025-paro-nacional-106521/?utm\n\n2. Alianza de Derechos Humanos: https://alianzaddhh.org/wp-content/uploads/2025/10/Boletin-8-Alianza-DD.HH_.pdf?\n\n3. Ecuavisa: https://www.ecuavisa.com/la-noticia-a-fondo/paro-nacional-ecuador-imbabura-feriado-octubre-EA10234312?utm\n\n",
+      "link": "https://x.com/ComunicacionEc/status/1973910898667642891"
+    },
+    {
+      "date": "2025-10-02",
+      "day": "11",
+      "location": "Pichincha",
+      "title": "CONAIE a través de su Consejo Ampliado ratifica la continuidad del paro naciónal",
+      "summary": "En el onceavo día de paro naciónal registrado en Ecuador en el año 2025, el Consejo Ampliado de la CONAIE y sus regionales se reunieron en Quito para analizar las nuevas acciones que tomaría en medio de las movilizaciones. Después de un largo debate el presidente de la organización, Marlon Vargas, se dirigió a los medios de comunicación para presentar seis resoluciones alcanzadas: \n\r\nEn primer lugar, “ratificar la continuidad del paro naciónal  como expresión legítima de resistencia frente a un gobierno autoritario subordinado al Fondo Monetari...",
+      "category": "detenciones",
+      "source": "1. Red social X de la CONAIE: https://x.com/CONAIE_Ecuador/status/1973454395992908059/photo/1 \n\n2. Red social Facebook de la CONAIE: https://www.facebook.com/conaie.org/videos/consejo-ampliado-conair/736785416032629/?rdid=o28bpykItfOPDg6b \n\n3.  https://www.primicias.ec/politica/conaie-quito-consejo-acciones-paro-nacional-ecuador-106449/?utm\n\n4. ",
+      "link": ""
+    },
+    {
+      "date": "2025-10-03",
+      "day": "12",
+      "location": "Imbabura",
+      "title": "Economía en la provincia de Imbabura sufre traspié durante el paro naciónal",
+      "summary": "Durante el doceavo día de protestas los medios de comunicación informaron que la economía de Imbabura se encontraba afectada por las protestas y cierres viales registrados en varios sitios de la provincia. De acuerdo con información proporcionada por el portal Gk, entre los sectores con mayores pérdidas económicas se encontrarían: comercial, turismo, artesanal, textil, floricultor y agroindustrial, esto con mayor énfasis en Otavalo, Cotacachi e Ibarra.",
+      "category": "anuncio",
+      "source": "1. Gk: https://gk.city/2025/10/03/economia-de-imbabura-impactada-por-paro-nacional-2025/\n\n2. La Hora: https://www.lahora.com.ec/imbaburacarchi/Imbabura-a-punto-del-colapso-por-el-paro-de-la-Conaie-20251002-0048.html\n\n3. Anmistía Internacional: https://www.amnesty.org/es/latest/news/2025/10/ecuador-alerta-por-represion-a-protestas-independencia-judicial-y-desapariciones-forzadas/",
+      "link": "1. https://www.elcomercio.com/actualidad/politica/detienen-exalcalde-guaranda-funcionarios-publicos-causa/ \n\n2. https://x.com/MinInteriorEc/status/1974588087050379283 \n\n3. https://www.primicias.ec/politica/ministerio-interior-contraloria-examen-fondos-publicos-paro-conaie-106658/ "
+    },
+    {
+      "date": "2025-10-04",
+      "day": "13",
+      "location": "Pichincha",
+      "title": "Periodistas de medios de comunicación alternativos son reprimidos por elementos de la Policía Naciónal",
+      "summary": "Un grupo de manifestantes fue desalojado por la fuerza por efectivos de la Policía y las Fuerzas Armadas que resguardaban a simpatizantes del movimiento ADN en el parque El Arbolito, en el centro de Quito. Durante el operativo, varios reporteros de prensa fueron agredidos por uniformados mientras intentaban registrar el desalojo, ejecutado principalmente por agentes motorizados de la Policía Naciónal.",
+      "category": "violencia",
+      "source": "",
+      "link": "https://www.instagram.com/p/DPcEw6RCNh1/"
+    },
+    {
+      "date": "2025-10-05",
+      "day": "14",
+      "location": "Pichincha",
+      "title": "Policias agreden a periodistas y a personas de la tercerda edad",
+      "summary": "La tarde del 5 de septiembre, un grupo de policías agredió a periodistas de Wambra, Ecuador Chequea y Expreso. Este hecho se suma a otras agresiones cometidas por uniformados contra reporteros que cubren las manifestaciónes ciudadanas en Ecuador.\n\nEn los videos difundidos se observa cómo agentes de la Policía Naciónal arremeten contra una persona de la tercera edad e intentan atropellarla con la llanta delantera de una motocicleta.",
+      "category": "represión",
+      "source": "",
+      "link": "https://www.instagram.com/p/DPcajUYiR_T/?hl=es-la"
+    },
+    {
+      "date": "2025-10-05",
+      "day": "14",
+      "location": "Pichincha",
+      "title": "Periodists español (Bernat Lautaro), fue deportado mientras cubría el paro naciónal",
+      "summary": "El periodista español Lautaro Bernat fue deportado la noche del 5 de octubre, tras ser detenido mientras cubría una manifestación contra el Gobierno en Quito. La Fundación Regional de Asesoría en Derechos Humanos (Inredh) alertó que el procedimiento estuvo “plagado de irregularidades y violaciónes al debido proceso”, pues no se le informaron las causas de su detención, se le negó comunicación con su embajada y no tuvo acceso a defensa legal.",
+      "category": "detenciones",
+      "source": "",
+      "link": ""
+    },
+    {
+      "date": "2025-10-07",
+      "day": "16",
+      "location": "Cañar",
+      "title": "Policia detiene a una mujer de la tercera edad del pueblo Kañari",
+      "summary": "Una mujer de la tercera edad fue detenida este martes 7 de octubre en el sector de Tambo, en Cañar.",
+      "category": "represión",
+      "source": "",
+      "link": ""
+    }
+  ],
+  "estadisticas": {
+    "total_eventos": 33,
+    "dias_paro": 14,
+    "categorias": {
+      "anuncio": 9,
+      "violencia": 5,
+      "detenciones": 5,
+      "censura": 3,
+      "represión": 11
+    },
+    "ubicaciones": {
+      "Imbabura": 13,
+      "Pichincha": 11,
+      "Escala nacional": 2,
+      "Cotopaxi": 2,
+      "Quito": 1,
+      "Azuay, Cotopaxi, Chimborazo, Imbabura y Pichincha": 1,
+      "Imbabura\nAzuay": 1,
+      "Pichicha": 1,
+      "Cañar": 1
+    }
+  }
+}
