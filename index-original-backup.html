@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Observatorio de Derechos Humanos Ecuador - Documentación del Paro Nacional 2025">
+    <meta name="keywords" content="derechos humanos, Ecuador, paro nacional, CONAIE, CEDHU">
+    <meta property="og:title" content="Observatorio DDHH Ecuador">
+    <meta property="og:description" content="Documentación interactiva de vulneraciones a derechos humanos durante el Paro Nacional Ecuador 2025">
+    <meta property="og:type" content="website">
+    <title>Observatorio DDHH Ecuador - Paro Nacional 2025</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        /* PALETA DE COLORES MEJORADA: Moderna y profesional */
+        :root {
+            --color-primary: #2C5F8D; /* Azul profundo - Principal */
+            --color-primary-light: #4A7BA7;
+            --color-secondary: #7D8F69; /* Verde oliva - Neutro */
+            --color-bg: #F7F7F5; /* Fondo claro cálido */
+            --color-bg-alt: #FFFFFF;
+            --color-dark: #1A1A1A; /* Texto principal */
+            --color-dark-light: #4A4A4A;
+            --color-accent: #8B6F9E; /* Púrpura elegante */
+            --color-danger: #D64545; /* Rojo - Violencia */
+            --color-warning: #E8983D;
+            --color-success: #5B9A7C;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+            --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.16);
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--color-bg);
+            color: var(--color-dark);
+            line-height: 1.7;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Fraunces', Georgia, serif;
+            font-weight: 700;
+            color: var(--color-dark);
+            line-height: 1.2;
+        }
+
+        /* Barra de Progreso y Navegación */
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+            z-index: 10000;
+            transition: width 0.1s linear;
+            box-shadow: 0 2px 8px rgba(44, 95, 141, 0.3);
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.97);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            z-index: 9999;
+            padding: 1.25rem 2.5rem;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+            box-shadow: var(--shadow-sm);
+            opacity: 0;
+            transform: translateY(-100%);
+            transition: var(--transition);
+        }
+
+        .nav.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-brand {
+            font-family: 'Fraunces', serif;
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: var(--color-primary);
+            letter-spacing: -0.5px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            font-size: 0.925rem;
+            color: var(--color-dark-light);
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+            cursor: pointer;
+            position: relative;
+            padding: 0.5rem 0;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--color-primary);
+            transition: var(--transition);
+        }
+
+        .nav-link:hover {
+            color: var(--color-primary);
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        /* Sección Hero */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, #2C5F8D 0%, #4A7BA7 50%, #8B6F9E 100%);
+            position: relative;
+            padding: 8rem 2rem 6rem;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                radial-gradient(circle at 20% 80%, rgba(139, 111, 158, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(74, 123, 167, 0.15) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            max-width: 1100px;
+            margin: 0 auto;
+            color: white;
+            opacity: 0;
+            animation: fadeInUp 1s ease forwards;
+            position: relative;
+            z-index: 1;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-label {
+            display: inline-block;
+            font-size: 0.825rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 2rem;
+            padding: 0.5rem 1.25rem;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 50px;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero-title {
+            font-size: 5.5rem;
+            font-weight: 900;
+            line-height: 1;
+            margin-bottom: 2rem;
+            letter-spacing: -3px;
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero-desc {
+            font-size: 1.5rem;
+            line-height: 1.65;
+            max-width: 750px;
+            opacity: 0.95;
+            margin-bottom: 4.5rem;
+            font-weight: 400;
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 2rem;
+            max-width: 1200px;
+        }
+
+        .stat {
+            text-align: left;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-md);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            transition: var(--transition);
+        }
+
+        .stat:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-5px);
+        }
+
+        .stat-num {
+            font-size: 4rem;
+            font-weight: 900;
+            line-height: 1;
+            font-family: 'Fraunces', serif;
+            margin-bottom: 0.75rem;
+        }
+
+        .stat-label {
+            font-size: 0.95rem;
+            opacity: 0.95;
+            font-weight: 500;
+        }
+
+        .scroll-hint {
+            position: absolute;
+            bottom: 3rem;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            opacity: 0.8;
+            font-size: 0.85rem;
+            text-align: center;
+            cursor: pointer;
+            animation: float 3s ease-in-out infinite;
+            transition: var(--transition);
+        }
+
+        .scroll-hint:hover {
+            opacity: 1;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            50% { transform: translateX(-50%) translateY(-12px); }
+        }
+
+        /* Estilos Generales de Contenido */
+        .section {
+            padding: 8rem 2rem;
+        }
+
+        .section-white {
+            background: var(--color-bg-alt);
+        }
+
+        .section-light {
+            background: var(--color-bg);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .section-label {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+            color: var(--color-primary);
+            margin-bottom: 1.5rem;
+            padding: 0.4rem 1rem;
+            background: rgba(44, 95, 141, 0.08);
+            border-radius: 4px;
+        }
+
+        .section-title {
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.15;
+            margin-bottom: 2rem;
+            letter-spacing: -2px;
+            color: var(--color-dark);
+        }
+
+        .section-intro {
+            font-size: 1.35rem;
+            line-height: 1.75;
+            color: var(--color-dark-light);
+            margin-bottom: 4rem;
+            font-weight: 400;
+        }
+
+        .text {
+            font-size: 1.1rem;
+            line-height: 1.9;
+            margin-bottom: 2rem;
+            color: var(--color-dark);
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .text.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .text strong {
+            font-weight: 700;
+            color: var(--color-primary);
+        }
+
+        .callout {
+            padding: 2.5rem;
+            background: linear-gradient(135deg, rgba(44, 95, 141, 0.04) 0%, rgba(139, 111, 158, 0.04) 100%);
+            border-left: 4px solid var(--color-primary);
+            border-radius: var(--radius-sm);
+            margin: 3rem 0;
+            font-size: 1.15rem;
+            line-height: 1.85;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .callout.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* VISUALIZATIONS */
+        .viz-section {
+            padding: 8rem 2rem;
+            background: var(--color-bg-alt);
+        }
+
+        .viz-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .viz-title {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            text-align: center;
+            letter-spacing: -1.5px;
+            color: var(--color-dark);
+        }
+
+        .viz-subtitle {
+            font-size: 1.15rem;
+            color: var(--color-dark-light);
+            text-align: center;
+            margin-bottom: 4rem;
+            font-weight: 400;
+        }
+
+        /* Category Breakdown */
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+
+        .category-card {
+            padding: 2.5rem 2rem;
+            background: var(--color-bg);
+            border-radius: var(--radius-md);
+            text-align: center;
+            border: 2px solid transparent;
+            transition: var(--transition);
+            opacity: 0;
+            transform: translateY(20px);
+            box-shadow: var(--shadow-sm);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .category-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: currentColor;
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .category-card.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .category-card:hover::before {
+            opacity: 1;
+        }
+
+        .category-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .category-num {
+            font-size: 3.5rem;
+            font-weight: 900;
+            font-family: 'Fraunces', serif;
+            margin-bottom: 0.75rem;
+            line-height: 1;
+        }
+
+        .category-label {
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--color-dark-light);
+        }
+
+        /* Timeline - Formato Vertical con Cards */
+        #timeline-chart {
+            position: relative;
+            max-width: 1200px;
+            margin: 4rem auto;
+            padding: 2rem 0;
+        }
+
+        .timeline-container {
+            position: relative;
+            padding-left: 60px;
+        }
+
+        .timeline-line {
+            position: absolute;
+            left: 30px;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(180deg, var(--color-primary) 0%, var(--color-accent) 100%);
+        }
+
+        .timeline-event {
+            position: relative;
+            margin-bottom: 3rem;
+            opacity: 0;
+            transform: translateX(-30px);
+            transition: all 0.6s ease;
+        }
+
+        .timeline-event.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .timeline-marker {
+            position: absolute;
+            left: -45px;
+            top: 20px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: white;
+            border: 4px solid;
+            box-shadow: 0 0 0 4px rgba(255,255,255,0.8);
+            z-index: 2;
+        }
+
+        .timeline-marker.anuncio { border-color: #5B9A7C; }
+        .timeline-marker.detenciones { border-color: #E8983D; }
+        .timeline-marker.represion { border-color: #D64545; }
+        .timeline-marker.violencia { border-color: #8B0000; }
+        .timeline-marker.censura { border-color: #8B6F9E; }
+
+        .timeline-card {
+            background: white;
+            border-radius: var(--radius-md);
+            padding: 2rem;
+            box-shadow: var(--shadow-md);
+            border-left: 4px solid;
+            transition: var(--transition);
+            margin-left: 20px;
+        }
+
+        .timeline-card.anuncio { border-left-color: #5B9A7C; }
+        .timeline-card.detenciones { border-left-color: #E8983D; }
+        .timeline-card.represion { border-left-color: #D64545; }
+        .timeline-card.violencia { border-left-color: #8B0000; }
+        .timeline-card.censura { border-left-color: #8B6F9E; }
+
+        .timeline-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .timeline-date {
+            display: inline-block;
+            background: var(--color-primary);
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .timeline-day-badge {
+            display: inline-block;
+            background: var(--color-bg);
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 0.5rem;
+            color: var(--color-dark);
+        }
+
+        .timeline-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: var(--color-dark);
+            line-height: 1.4;
+        }
+
+        .timeline-location {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            font-size: 0.9rem;
+            color: var(--color-dark-light);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .timeline-summary {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: var(--color-dark-light);
+            margin-bottom: 1rem;
+        }
+
+        .timeline-category {
+            display: inline-block;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .timeline-category.anuncio {
+            background: rgba(91, 154, 124, 0.15);
+            color: #5B9A7C;
+        }
+
+        .timeline-category.detenciones {
+            background: rgba(232, 152, 61, 0.15);
+            color: #E8983D;
+        }
+
+        .timeline-category.represion {
+            background: rgba(214, 69, 69, 0.15);
+            color: #D64545;
+        }
+
+        .timeline-category.violencia {
+            background: rgba(139, 0, 0, 0.15);
+            color: #8B0000;
+        }
+
+        .timeline-category.censura {
+            background: rgba(139, 111, 158, 0.15);
+            color: #8B6F9E;
+        }
+
+        /* Geographic Visualization */
+        .geo-viz {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+
+        .geo-item {
+            padding: 2.5rem 2rem;
+            background: var(--color-bg);
+            border-radius: var(--radius-md);
+            text-align: center;
+            opacity: 0;
+            transform: scale(0.95);
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid rgba(0, 0, 0, 0.04);
+        }
+
+        .geo-item.visible {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .geo-item:hover {
+            transform: scale(1.03);
+            box-shadow: var(--shadow-md);
+        }
+
+        .geo-label {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            color: var(--color-dark);
+        }
+
+        .geo-count {
+            font-size: 2.5rem;
+            font-weight: 900;
+            font-family: 'Fraunces', serif;
+            color: var(--color-primary);
+            line-height: 1;
+        }
+
+        .geo-dots {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+            margin-top: 1.5rem;
+            min-height: 60px;
+            align-items: center;
+        }
+
+        .geo-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--color-primary);
+            box-shadow: 0 2px 4px rgba(44, 95, 141, 0.3);
+            transition: var(--transition);
+        }
+
+        .geo-dot:hover {
+            transform: scale(1.3);
+        }
+
+        /* Events Table */
+        .events-section {
+            padding: 8rem 2rem;
+            background: var(--color-bg);
+        }
+
+        .events-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .filters {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .filter-btn {
+            padding: 0.75rem 1.5rem;
+            border: 2px solid var(--color-primary);
+            background: transparent;
+            color: var(--color-primary);
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: var(--color-primary);
+            color: white;
+        }
+
+        .events-grid {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .event-card {
+            background: white;
+            padding: 2rem;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-sm);
+            border-left: 4px solid var(--color-primary);
+            transition: var(--transition);
+        }
+
+        .event-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateX(5px);
+        }
+
+        .event-meta {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            font-size: 0.85rem;
+            color: var(--color-dark-light);
+        }
+
+        .event-date {
+            font-weight: 700;
+            color: var(--color-primary);
+        }
+
+        .event-location {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        .event-day {
+            background: var(--color-bg);
+            padding: 0.3rem 0.8rem;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .event-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--color-dark);
+            line-height: 1.4;
+        }
+
+        .event-summary {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: var(--color-dark-light);
+            margin-bottom: 1rem;
+        }
+
+        .event-category {
+            display: inline-block;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .category-anuncio {
+            background: rgba(91, 154, 124, 0.1);
+            color: var(--color-success);
+        }
+
+        .category-detenciones {
+            background: rgba(232, 152, 61, 0.1);
+            color: var(--color-warning);
+        }
+
+        .category-represion {
+            background: rgba(214, 69, 69, 0.1);
+            color: var(--color-danger);
+        }
+
+        .category-violencia {
+            background: rgba(139, 0, 0, 0.1);
+            color: #8B0000;
+        }
+
+        .category-censura {
+            background: rgba(139, 111, 158, 0.1);
+            color: var(--color-accent);
+        }
+
+        /* Referencias Section - Formato Bibliográfico APA */
+        .bibliografia-container {
+            max-width: 900px;
+            margin: 3rem auto;
+            background: white;
+            padding: 3rem;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .bibliografia-item {
+            margin-bottom: 1.5rem;
+            padding-left: 2.5rem;
+            text-indent: -2.5rem;
+            line-height: 1.8;
+            font-size: 0.95rem;
+            color: #333;
+        }
+
+        .bibliografia-item a {
+            color: var(--color-primary);
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        .bibliografia-item a:hover {
+            text-decoration: underline;
+            color: var(--color-accent);
+        }
+
+        .sin-referencias {
+            text-align: center;
+            padding: 3rem;
+            color: #888;
+            font-style: italic;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--color-dark);
+            color: white;
+            padding: 5rem 2rem 3rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 4rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-section h3 {
+            color: white;
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
+        }
+
+        .footer-section p,
+        .footer-section a {
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.8;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 2rem;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 3rem;
+            }
+
+            .hero-stats {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .stat-num {
+                font-size: 3rem;
+            }
+
+            .section-title {
+                font-size: 2.5rem;
+            }
+
+            .nav-links {
+                gap: 1.5rem;
+            }
+
+            .category-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .timeline-container {
+                padding-left: 40px;
+            }
+
+            .timeline-line {
+                left: 20px;
+            }
+
+            .timeline-marker {
+                left: -35px;
+                width: 25px;
+                height: 25px;
+            }
+
+            .timeline-card {
+                margin-left: 10px;
+                padding: 1.5rem;
+            }
+
+            .timeline-title {
+                font-size: 1.1rem;
+            }
+
+            .timeline-summary {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar" id="progressBar"></div>
+
+    <nav class="nav" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Observatorio DDHH</div>
+            <div class="nav-links">
+                <a href="#contexto" class="nav-link">Contexto</a>
+                <a href="#visualizaciones" class="nav-link">Visualizaciones</a>
+                <a href="#eventos" class="nav-link">Eventos</a>
+                <a href="#metodologia" class="nav-link">Metodología</a>
+                <a href="#referencias" class="nav-link">Referencias</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <span class="hero-label">Observatorio de Derechos Humanos</span>
+            <h1 class="hero-title">Paro Nacional Ecuador 2025</h1>
+            <p class="hero-desc">
+                Documentación rigurosa y visualización interactiva de vulneraciones a derechos humanos
+                durante el Paro Nacional convocado por la CONAIE en Ecuador.
+            </p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-num">3</div>
+                    <div class="stat-label">Personas Fallecidas</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-num">391</div>
+                    <div class="stat-label">Vulneraciones a DDHH</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-num">206</div>
+                    <div class="stat-label">Detenciones Documentadas</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-num">473</div>
+                    <div class="stat-label">Personas Heridas</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-num">16</div>
+                    <div class="stat-label">Desapariciones de Corta Duración</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint" onclick="document.getElementById('contexto').scrollIntoView({behavior: 'smooth'})">
+            Desplazar ↓
+        </div>
+    </section>
+
+    <section class="section section-white" id="contexto">
+        <div class="container">
+            <span class="section-label">Plataforma para los Derechos Humanos EC</span>
+            <h2 class="section-title">Sobre la Plataforma</h2>
+
+            <p class="text">
+                La <strong>Plataforma para los Derechos Humanos EC</strong> es un espacio construido colectivamente por
+                <strong>Diversa</strong> y <strong>CEDHU</strong>, dos organizaciones que buscan difundir información relacionada
+                con la permanente vulneración de derechos humanos registrada en Ecuador. Inicialmente, surgió con el propósito de
+                recoger los sucesos más relevantes del paro nacional registrados entre septiembre y octubre del 2025.
+            </p>
+
+            <p class="text">
+                Sin embargo, en el contexto actual de violencia e inseguridad pautada por el crimen organizado, la falta de
+                oportunidades para la población y la ausencia estatal, el país experimenta un marcado giro hacia el autoritarismo,
+                y la consecuente pérdida de los valores y principios democráticos como la libertad, igualdad, justicia y solidaridad.
+            </p>
+
+            <div class="callout">
+                <strong>Contexto crítico:</strong> Siguiendo una tendencia regional, la narrativa del gobierno central apunta hacia
+                la polarización, a través de argumentos que tienden a ser discriminatorios, racistas, xenófobos. Esta narrativa
+                apunta a un enemigo interno: esa persona, comunidad, etnia, pueblo, grupo social u organización que es fácilmente
+                transformada en criminal por exigir el cumplimiento de sus derechos consagrados en la Constitución del Ecuador.
+            </div>
+
+            <p class="text">
+                En un escenario donde la democracia sufrió un severo deterioro, afloran diversos síntomas de problemáticas de orden
+                estructural que no han sido resueltas: debilitamiento de la institucionalidad, crecientes restricciones del espacio
+                cívico, incremento de la influencia de grupos delictivos, permanentes tensiones políticas y sociales, y pérdida de
+                confianza de los ciudadanos hacia los sistemas llamados a garantizar derechos.
+            </p>
+
+            <p class="text">
+                Durante el 2025 se aprobaron varias leyes en la Asamblea Nacional, destacando la <strong>Ley Orgánica de Transparencia
+                Social y su Reglamento</strong>, las que buscan intimidar y callar la voz de la sociedad civil, llegando al extremo
+                de prohibir que organizaciones que trabajan en territorios afectados por actividades mineras continúen acompañando el
+                legítimo derecho a la resistencia y al acceso a la justicia de las comunidades.
+            </p>
+        </div>
+    </section>
+
+    <section class="viz-section" id="visualizaciones">
+        <div class="viz-container">
+            <h2 class="viz-title">Visualizaciones de Datos</h2>
+            <p class="viz-subtitle">Análisis interactivo de eventos documentados</p>
+
+            <h3 style="font-size: 2rem; margin-top: 2rem; margin-bottom: 2rem; text-align: center;">
+                Cronología de Eventos
+            </h3>
+            <div id="timeline-chart"></div>
+
+            <h3 style="font-size: 2rem; margin-top: 6rem; margin-bottom: 2rem; text-align: center;">
+                Distribución Geográfica
+            </h3>
+            <div class="geo-viz" id="geoViz"></div>
+        </div>
+    </section>
+
+    <section class="events-section" id="eventos">
+        <div class="events-container">
+            <h2 class="viz-title">Eventos Documentados</h2>
+            <p class="viz-subtitle">Registro cronológico detallado de cada evento</p>
+
+            <div class="filters" id="filters">
+                <button class="filter-btn active" data-category="all">Todos</button>
+                <button class="filter-btn" data-category="anuncio">Anuncios</button>
+                <button class="filter-btn" data-category="detenciones">Detenciones</button>
+                <button class="filter-btn" data-category="represion">Represión</button>
+                <button class="filter-btn" data-category="violencia">Violencia</button>
+                <button class="filter-btn" data-category="censura">Censura</button>
+            </div>
+
+            <div class="events-grid" id="eventsGrid"></div>
+        </div>
+    </section>
+
+    <section class="section section-white" id="metodologia">
+        <div class="container">
+            <span class="section-label">Metodología</span>
+            <h2 class="section-title">Metodología de levantamiento de información durante el paro nacional 2025</h2>
+
+            <p class="text">
+                En cuanto a la metodología planteada para la construcción de la línea de tiempo, se consideró oportuno recoger
+                diferentes perspectivas de las movilizaciones y protestas registradas en varias provincias del país. El corte
+                temporal del levantamiento de información inició el <strong>22 de septiembre y concluyó el 24 de octubre de 2025</strong>,
+                es decir, la línea de tiempo cubre un total de 33 días.
+            </p>
+
+            <p class="text">
+                El método utilizado para el levantamiento de información consistió en la <strong>revisión de fuentes secundarias
+                virtuales</strong>, entre los sitios considerados para acceder la información se encuentran las páginas oficiales
+                y los perfiles en redes sociales de varias instituciones públicas, especialmente aquellas que mantuvieron un rol
+                activo durante el corte temporal de la investigación.
+            </p>
+
+            <div class="callout">
+                <strong>Fuentes consultadas:</strong> Se analizaron y contrastaron los reportajes y artículos publicados en medios
+                de comunicación tradicionales y alternativos. Además, se revisaron a profundidad los datos disponibles acerca de
+                vulneraciones de derechos elaborados por organizaciones de la sociedad civil. Se recogieron los pronunciamientos
+                de organismos internacionales producidos durante el paro nacional.
+            </div>
+
+            <p class="text">
+                La revisión de fuentes secundarias disponibles durante el paro permitió tener una visión mucho más amplia de lo
+                que sucedía, más allá de la narrativa oficial, la misma que fue replicada a través de los medios de comunicación
+                más tradicionales. Al realizar una revisión sistemática de las fuentes secundarias también se identificaron las
+                narrativas que el gobierno intentaba posicionar.
+            </p>
+
+            <p class="text">
+                Durante la búsqueda de información para alimentar la línea de tiempo, resultó interesante observar cómo el gobierno
+                de Noboa propuso al menos seis nuevas leyes inscritas en el ámbito de lo "económico urgente" hasta noviembre de 2025,
+                las cuales fueron aprobadas mayoritariamente en la Asamblea Nacional. Al menos dos de las seis leyes fueron reconocidas
+                como inconstitucionales por la Corte Constitucional: <strong>Ley Orgánica de Innovación Fortalecimiento de la Gestión
+                Pública</strong> y la <strong>Ley Orgánica de Integridad Pública</strong>.
+            </p>
+
+            <div class="callout">
+                <strong>Colaboración institucional:</strong> La Comisión Ecuménica de Derechos Humanos (CEDHU), primera organización
+                de derechos humanos constituida en Ecuador, suscribió una alianza con Diversa, una organización que ofrece servicios
+                de datos e inteligencia artificial (IA) centrada en las personas. Esta colaboración busca integrar el uso de la
+                inteligencia artificial y el análisis de datos para potenciar la protección de los derechos humanos en Ecuador.
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-white" id="referencias">
+        <div class="container">
+            <span class="section-label">Fuentes Consultadas</span>
+            <h2 class="section-title">Referencias Bibliográficas</h2>
+            <p class="text" style="text-align: center; max-width: 800px; margin: 0 auto 2rem;">
+                Todas las fuentes consultadas para la documentación de eventos del Paro Nacional 2025,
+                organizadas en formato APA.
+            </p>
+            <div id="bibliografiaContainer" class="bibliografia-container"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Observatorio DDHH Ecuador</h3>
+                <p>
+                    Plataforma de documentación y análisis de vulneraciones a derechos humanos
+                    durante el Paro Nacional Ecuador 2025.
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>Organizaciones</h3>
+                <a href="https://cedhu.org" target="_blank">CEDHU</a>
+                <a href="#">Diversa Studio</a>
+            </div>
+            <div class="footer-section">
+                <h3>Recursos</h3>
+                <a href="#metodologia">Metodología</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 Observatorio DDHH Ecuador. Licencia Creative Commons BY-SA 4.0
+        </div>
+    </footer>
+
+    <script>
+        // Cargar datos procesados
+        let datosApp = null;
+        let referenciasData = null;
+
+        // Cargar el archivo JSON de datos
+        fetch('datos_procesados.json')
+            .then(response => response.json())
+            .then(data => {
+                datosApp = data;
+                return fetch('referencias.json');
+            })
+            .then(response => response.json())
+            .then(data => {
+                referenciasData = data;
+                inicializarApp();
+            })
+            .catch(error => {
+                console.error('Error cargando datos:', error);
+                // Fallback: mostrar mensaje de error
+                document.body.innerHTML += '<div style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); text-align: center; max-width: 500px;"><h2 style="color: #D64545; margin-bottom: 1rem;">Error al cargar datos</h2><p>No se pudo cargar los archivos de datos. Asegúrate de que datos_procesados.json y referencias.json existen en el mismo directorio.</p></div>';
+            });
+
+        function inicializarApp() {
+            // Crear visualizaciones
+            crearTimelineViz();
+            crearGeoViz();
+            renderizarEventos();
+            renderizarReferencias();
+
+            // Scroll animations
+            setupScrollAnimations();
+            setupNavbar();
+            setupFilters();
+        }
+
+        function crearTimelineViz() {
+            const container = document.getElementById('timeline-chart');
+            const eventos = datosApp.eventos;
+
+            // Crear contenedor principal con línea vertical
+            const timelineHTML = `
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+                    ${eventos.map((evento, index) => `
+                        <div class="timeline-event" style="animation-delay: ${index * 0.1}s">
+                            <div class="timeline-marker ${evento.category}"></div>
+                            <div class="timeline-card ${evento.category}">
+                                <div>
+                                    <span class="timeline-date">${formatearFecha(evento.date)}</span>
+                                    <span class="timeline-day-badge">Día ${evento.day}</span>
+                                </div>
+                                <div class="timeline-location">📍 ${evento.location}</div>
+                                <h3 class="timeline-title">${evento.title}</h3>
+                                <p class="timeline-summary">${evento.summary}</p>
+                                <span class="timeline-category ${evento.category}">
+                                    ${evento.category}
+                                </span>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+
+            container.innerHTML = timelineHTML;
+
+            // Activar animaciones al hacer scroll
+            setTimeout(() => {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible');
+                        }
+                    });
+                }, { threshold: 0.1 });
+
+                document.querySelectorAll('.timeline-event').forEach(el => {
+                    observer.observe(el);
+                });
+            }, 100);
+        }
+
+        function formatearFecha(fecha) {
+            // Convertir fecha YYYY-MM-DD o YYYY/MM/DD a formato legible
+            const meses = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
+            let partes;
+
+            if (fecha.includes('/')) {
+                partes = fecha.split('/');
+            } else {
+                partes = fecha.split('-');
+            }
+
+            const mes = meses[parseInt(partes[1]) - 1];
+            const dia = parseInt(partes[2]);
+
+            return `${dia} ${mes}`;
+        }
+
+        function crearGeoViz() {
+            const container = document.getElementById('geoViz');
+            const ubicaciones = datosApp.estadisticas.ubicaciones;
+
+            // Ordenar por cantidad de eventos (mayor a menor)
+            const ubicacionesOrdenadas = Object.entries(ubicaciones)
+                .sort(([, a], [, b]) => b - a);
+
+            // Encontrar el máximo para calcular porcentajes
+            const maxEventos = Math.max(...Object.values(ubicaciones));
+
+            ubicacionesOrdenadas.forEach(([lugar, count], index) => {
+                const item = document.createElement('div');
+                item.className = 'geo-item';
+                item.style.animationDelay = `${index * 0.1}s`;
+
+                // Calcular porcentaje para barra
+                const porcentaje = (count / maxEventos) * 100;
+
+                // Elegir color basado en intensidad
+                let colorIntensidad = '#5B9A7C'; // Verde suave
+                if (count > 10) colorIntensidad = '#E8983D'; // Naranja
+                if (count > 12) colorIntensidad = '#D64545'; // Rojo
+
+                item.innerHTML = `
+                    <div class="geo-label">${lugar}</div>
+                    <div class="geo-count" style="color: ${colorIntensidad}">${count}</div>
+                    <div style="width: 100%; background: #f0f0f0; height: 12px; border-radius: 6px; margin-top: 15px; overflow: hidden;">
+                        <div style="width: ${porcentaje}%; height: 100%; background: ${colorIntensidad}; border-radius: 6px; transition: width 1s ease;"></div>
+                    </div>
+                    <div style="margin-top: 8px; font-size: 0.85rem; color: #888; text-align: center;">
+                        ${((count / datosApp.estadisticas.total_eventos) * 100).toFixed(1)}% del total
+                    </div>
+                `;
+
+                container.appendChild(item);
+            });
+        }
+
+        function renderizarEventos(filtroCategoria = 'all') {
+            const container = document.getElementById('eventsGrid');
+            container.innerHTML = '';
+
+            const eventosFiltrados = filtroCategoria === 'all'
+                ? datosApp.eventos
+                : datosApp.eventos.filter(e => e.category === filtroCategoria);
+
+            eventosFiltrados.forEach(evento => {
+                const card = document.createElement('div');
+                card.className = 'event-card';
+
+                card.innerHTML = `
+                    <div class="event-meta">
+                        <span class="event-date">📅 ${evento.date}</span>
+                        <span class="event-location">📍 ${evento.location}</span>
+                        <span class="event-day">Día ${evento.day}</span>
+                    </div>
+                    <h3 class="event-title">${evento.title}</h3>
+                    <p class="event-summary">${evento.summary}</p>
+                    <span class="event-category category-${evento.category}">
+                        ${evento.category}
+                    </span>
+                `;
+
+                container.appendChild(card);
+            });
+        }
+
+        function renderizarReferencias() {
+            const container = document.getElementById('bibliografiaContainer');
+
+            if (!referenciasData || !referenciasData.referencias || referenciasData.referencias.length === 0) {
+                container.innerHTML = '<div class="sin-referencias">No hay referencias disponibles</div>';
+                return;
+            }
+
+            const referencias = referenciasData.referencias;
+
+            // Agrupar y eliminar duplicados por URL
+            const refsUnicas = new Map();
+
+            referencias.forEach(ref => {
+                // Extraer URLs de fuente, fuente_primaria y link
+                let urls = [];
+
+                if (ref.fuente && ref.fuente.includes('http')) {
+                    const matches = ref.fuente.match(/https?:\/\/[^\s,\n]+/g);
+                    if (matches) urls.push(...matches);
+                }
+
+                if (ref.fuente_primaria && ref.fuente_primaria.includes('http')) {
+                    const matches = ref.fuente_primaria.match(/https?:\/\/[^\s,\n]+/g);
+                    if (matches) urls.push(...matches);
+                }
+
+                if (ref.link && ref.link.includes('http')) {
+                    const matches = ref.link.match(/https?:\/\/[^\s,\n]+/g);
+                    if (matches) urls.push(...matches);
+                }
+
+                // Agregar cada URL única
+                urls.forEach(url => {
+                    url = url.replace(/[.,;:)}\]]+$/, ''); // Limpiar signos al final
+                    if (!refsUnicas.has(url)) {
+                        refsUnicas.set(url, {
+                            url: url,
+                            fecha: ref.fecha_evento
+                        });
+                    }
+                });
+            });
+
+            // Ordenar alfabéticamente por dominio
+            const refsOrdenadas = Array.from(refsUnicas.values()).sort((a, b) => {
+                const domainA = a.url.replace(/https?:\/\//, '').split('/')[0];
+                const domainB = b.url.replace(/https?:\/\//, '').split('/')[0];
+                return domainA.localeCompare(domainB);
+            });
+
+            // Generar bibliografía en formato APA
+            refsOrdenadas.forEach((ref, index) => {
+                const item = document.createElement('div');
+                item.className = 'bibliografia-item';
+
+                // Extraer información del URL para formato APA
+                const urlObj = new URL(ref.url);
+                const dominio = urlObj.hostname.replace('www.', '');
+                const año = ref.fecha ? ref.fecha.split('-')[0] : '2025';
+
+                // Formatear en estilo APA simplificado
+                const citaAPA = `${dominio.charAt(0).toUpperCase() + dominio.slice(0, dominio.indexOf('.'))}. (${año}). Recuperado de <a href="${ref.url}" target="_blank" rel="noopener">${ref.url}</a>`;
+
+                item.innerHTML = citaAPA;
+                container.appendChild(item);
+            });
+        }
+
+        function setupScrollAnimations() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.text, .callout, .counter-item, .category-card, .geo-item').forEach(el => {
+                observer.observe(el);
+            });
+        }
+
+        function setupNavbar() {
+            const navbar = document.getElementById('navbar');
+            const progressBar = document.getElementById('progressBar');
+
+            window.addEventListener('scroll', () => {
+                // Navbar visibility
+                if (window.scrollY > 100) {
+                    navbar.classList.add('visible');
+                } else {
+                    navbar.classList.remove('visible');
+                }
+
+                // Progress bar
+                const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                const scrolled = (winScroll / height) * 100;
+                progressBar.style.width = scrolled + '%';
+            });
+
+            // Smooth scroll for nav links
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('href');
+                    document.querySelector(targetId).scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+        }
+
+        function setupFilters() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Update active state
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+
+                    // Filter events
+                    const category = btn.dataset.category;
+                    renderizarEventos(category);
+                });
+            });
+        }
+    </script>
+</body>
+</html>

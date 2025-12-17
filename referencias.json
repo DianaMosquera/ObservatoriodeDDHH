@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "total_referencias": 17,
+    "generado": "2025-12-16T09:46:54.401259"
+  },
+  "referencias": [
+    {
+      "id": 1,
+      "fecha_evento": "2025-09-12",
+      "ubicacion": "Quito",
+      "fuente": "https://www.primicias.ec/economia/eliminacion-subsidio-diesel-daniel-noboa-ecuador-pasajes-104415/",
+      "fuente_primaria": "1. Teleamazonas\n2. Comunicación Ecuador\n3. Wambra Radio",
+      "link": "1. https://www.teleamazonas.com/actualidad/noticias/economia/ines-manzano-eliminacion-subsidio-diesel-cerrar-llave-grupos-criminales-102501/   https://www.instagram.com/p/DOhZRqSDpeN/\n\n2. https://x.com/ComunicacionEc/status/1966652778157052275/photo/1"
+    },
+    {
+      "id": 2,
+      "fecha_evento": "2025-09-22",
+      "ubicacion": "Imbabura",
+      "fuente": "Lanceros Digitales\nKapari Comunicación\nLa Posta\nImbaburaHoy",
+      "fuente_primaria": "https://x.com/RedKapari/status/1970281040418660754",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "fecha_evento": "2025-09-22",
+      "ubicacion": "Imbabura",
+      "fuente": "https://www.elcomercio.com/actualidad/politica/ataque-al-cuartel-de-policia-en-otavalo-deja-heridos-y-detenidos-en-primer-dia-del-paro/",
+      "fuente_primaria": "El Comercio\nhttps://www.elcomercio.com/actualidad/politica/ataque-al-cuartel-de-policia-en-otavalo-deja-heridos-y-detenidos-en-primer-dia-del-paro/",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "fecha_evento": "2025-09-24",
+      "ubicacion": "Cotopaxi",
+      "fuente": "1. Foro Permanente para las Cuestiones Indígenas de las Naciones Unidas: https://social.desa.un.org/es/issues/los-pueblos-indigenas/news/llamado-urgente-para-proteger-los-derechos-de-los-pueblos",
+      "fuente_primaria": "",
+      "link": ""
+    },
+    {
+      "id": 5,
+      "fecha_evento": "2025-09-24",
+      "ubicacion": "Pichincha",
+      "fuente": "CNE",
+      "fuente_primaria": "",
+      "link": ""
+    },
+    {
+      "id": 6,
+      "fecha_evento": "2025-09-26",
+      "ubicacion": "Pichincha",
+      "fuente": "1. Datos del IESS: https://www.iess.gob.ec/noticias/-/asset_publisher/4DHq/content/en-2024-se-registro-la-cifra-mas-alta-de-afiliados-en-la-historia-del-iess/10174?\n\nredirect=https%3A%2F%2Fwww.iess.gob.ec%2Fnoticias%3Fp_p_id%3D101_INSTANCE_4DHq%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_pos%3D1%26p_p_col_count%3D2%26_101_INSTANCE_4DHq_advancedSearch%3Dfalse%26_101_INSTANCE_4DHq_keywords%3D%26_101_INSTANCE_4DHq_delta%3D6%26_101_INSTANCE_4DHq_cur%3D8%26_101_INSTANCE_4DHq_andOperator%3Dtrue?mostrarNoticia=1\n\n2. Registro Oficial: https://strapi.lexis.com.ec/uploads/Registro_Oficial_Quinto_Suplemneto_No_136_1_de_octubre_de_2025_LEXIS_Ecuador_e17883a402.pdf\n\n3. Primicias: https://www.primicias.ec/economia/ley-fortalecimiento-crediticio-biess-creditos-hipotecarios-iess-106639/",
+      "fuente_primaria": "1. El Universo\n\n2. Facebook Asamblea Nacional\n\n3. Ministerio de Gobierno",
+      "link": "1. https://www.eluniverso.com/noticias/politica/comision-de-desarrollo-economico-aprueba-informe-para-segundo-debate-del-proyecto-urgente-de-fortalecimiento-crediticio-que-busca-cambios-en-el-biess-nota/\n\n2. https://www.facebook.com/asambleanacional/videos/es-leyla-asamblea-nacional-aprob%C3%B3-la-ley-de-fortalecimiento-y-sostenibilidad-cre/1521280265729621/\n\n3. https://www.facebook.com/MinisterioDeGobiernoEcuador/posts/la-nueva-ley-reforma-urgentemente-el-sistema-previsional-y-financiero-del-biess-/1263001322534039/"
+    },
+    {
+      "id": 7,
+      "fecha_evento": "2025-09-26",
+      "ubicacion": "Pichincha",
+      "fuente": "1. Asambela Nacional: https://www.asambleanacional.gob.ec/es/noticia/106719-asamblea-nacional-aprueba-en-tiempo-record-ley-para\n\n2. Corte Constitucional: https://www.corteconstitucional.gob.ec/la-corte-constitucional-se-pronuncia-sobre-la-ley-de-integridad-publica-la-ley-de-solidaridad-nacional-y-propuestas-de-consulta-popular-y-de-reforma-constitucional/\n\n3. Corte Constitucional: https://esacc.corteconstitucional.gob.ec/storage/api/v1/10_DWL_FL/e2NhcnBldGE6J3RyYW1pdGUnLCB1dWlkOicyNzU4MjA4Zi0yMzQxLTQyYjgtOThkZC1kNzNkM2ZjNjRiMTEucGRmJ30=",
+      "fuente_primaria": "1. Primicias\n\n2. CNE\n\n3. El Comercio",
+      "link": "1.  https://www.primicias.ec/politica/ley-solidaridad-reglamento-corte-constitucional-elimina-conflicto-armado-interno-106165/\n\n2. https://www.cne.gob.ec/el-16-de-noviembre-los-ecuatorianos-decidiran-en-las-urnas-sobre-4-preguntas/  \n\n3. https://www.elcomercio.com/actualidad/politica/tras-incostitucionalidad-ley-solidaridad-gobierno-recurre-facultades-controlar-paro/\n"
+    },
+    {
+      "id": 8,
+      "fecha_evento": "2025-09-26",
+      "ubicacion": "Pichincha",
+      "fuente": "1. Asamblea Nacional: https://www.asambleanacional.gob.ec/es/blogs/carmen-tiupul-urquizo/107166-el-pleno-aprueba-ley-organica-de\n\n2. Primicias:  https://www.primicias.ec/politica/corte-constitucional-sentencia-ley-integridad-publica-solidaridad-nacional-105960/",
+      "fuente_primaria": "",
+      "link": ""
+    },
+    {
+      "id": 9,
+      "fecha_evento": "2025-09-27",
+      "ubicacion": "Imbabura",
+      "fuente": "1.  La Hora: https://www.lahora.com.ec/imbaburacarchi/Imbabura-indigenas-ratifican-el-paro-y-exigen-libertad-de-detenidos-20250926-0036.html\n\n2. El Universo: https://www.eluniverso.com/noticias/politica/paro-nacional-protestas-en-ecuador-conaie-imbabura-otavalo-detenidos-policia-nacional-daniel-noboa-terrorismo-nota\n\n3. TeleSur: https://www.telesurtv.net/ecuador-indigenas-reclaman-liberacion-presos/",
+      "fuente_primaria": "1. El Universo\n\n2. Ecuavisa",
+      "link": "1. https://www.eluniverso.com/noticias/politica/paro-nacional-protestas-en-ecuador-conaie-imbabura-otavalo-detenidos-policia-nacional-daniel-noboa-terrorismo-nota/?utm_source=chatgpt.com\n\n2. https://www.ecuavisa.com/noticias/seguridad/44-detenidos-antecedentes-penales-paro-nacional-BG10166645"
+    },
+    {
+      "id": 10,
+      "fecha_evento": "2025-09-28",
+      "ubicacion": "Imbabura",
+      "fuente": "1. Portal Gk: https://gk.city/2025/09/29/muerte-efrain-fuerez-paro-nacional-2025/\n\n\n2. CONAIE:  https://x.com/CONAIE_Ecuador/status/1972345338284683554 \n\n3. Primicias: https://www.primicias.ec/sucesos/organismo-derechos-humanos-denuncia-muerte-comunero-protestas-cotacahi-106173/ \n\n4. INREDH: https://x.com/inredh1/status/1972307030481186907\n\n5. Red social X de la FGE: https://x.com/FiscaliaEcuador/status/1972376302264164744?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1972376302264164744%7Ctwgr%5E4289755e9314945ee035548b1364c2089d68ea8c%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.radiopichincha.com%2Fasesinato-efrain-fuerez-extralimitacion-acto-servicio-ejecucion-extrajudicial%2F \n\n6. BN Periodismo: https://www.youtube.com/watch?v=u3k5LICd5Jw",
+      "fuente_primaria": "1. Red social X de Zayda Rovira\n\n2. El Comercio\n\n3. Ministerio del Interior\n\n4. Vistazo",
+      "link": "1. https://x.com/zaidarovira/status/1972406222591799526?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1972406222591799526%7Ctwgr%5E725e8ece4b4e761691e9897f47ceef6b1a80de26%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.elcomercio.com%2Factualidad%2Fpolitica%2Fministra-de-gobierno-se-pronuncia-sobre-los-hechos-en-cotacachi-y-la-situacion-del-paro-en-ecuador%2F\n\n2. https://www.elcomercio.com/actualidad/politica/ministra-de-gobierno-se-pronuncia-sobre-los-hechos-en-cotacachi-y-la-situacion-del-paro-en-ecuador/\n\n3. https://www.youtube.com/watch?v=XsJA3Rk2noE\n\n4. https://www.vistazo.com/politica/nacional/2025-10-01-reimberg-cuestiona-video-militares-muerte-comunero-efrain-fuerez-paro-nacional-EC10218590\n\n "
+    },
+    {
+      "id": 11,
+      "fecha_evento": "2025-09-28",
+      "ubicacion": "Pichicha",
+      "fuente": "1. Vistazo: https://www.vistazo.com/actualidad/nacional/2025-09-27-conaie-acusa-gobierno-perseguir-fiscalia-lideres-protestas-NI10188588 \n\n2. Expedientes: https://expedientes.ec/fiscalia-investiga-a-58-lideres-sociales-por-presunto-enriquecimiento-privado-no-justificado/\n\n3. Ecuavisa.noticias: https://www.tiktok.com/@ecuavisa.noticias/video/7555700036475178251\n\n4. La Hora: https://www.lahora.com.ec/sociedad/Fundacion-Pachamama-denuncia-congelamiento-de-cuentas-y-proceso-judicial-contra-su-presidenta-20250927-0012.html\n\n5. El Comercio: https://www.elcomercio.com/actualidad/negocios/entro-vigencia-ley-que-regula-fundaciones-ecuador/  \n\n6. Primicias: https://gk.city/2025/09/24/bloqueos-bancarios-lideres-indigenas-conaie-fundacion-pachamama/\n\n7. Gk: https://gk.city/2025/08/26/ley-transparencia-social-regular-ongs/",
+      "fuente_primaria": "1. El Universo\n\n2. Red social Instagram de Radio Pichincha. \n\n3. Red Social Instagram de la FGE",
+      "link": "1. https://www.eluniverso.com/noticias/politica/fiscalia-investiga-siete-delitos-contexto-paro-nacional-tres-analizados-atraves-investigaciones-previas-siete-mediante-procesos-penales-nota/\n\n2. https://www.instagram.com/p/DPeifcxlKRY/?utm_source=chatgpt.com\n\n3. https://www.instagram.com/p/DPC3nxqjbQw/?hl=es&img_index=1"
+    },
+    {
+      "id": 12,
+      "fecha_evento": "2025-09-28",
+      "ubicacion": "Imbabura",
+      "fuente": "1. El Comercio: https://www.elcomercio.com/actualidad/gobierno-desplaza-convoy-humanitario-y-de-seguridad-hacia-imbabura/",
+      "fuente_primaria": "1. Secretaría General de Comunicación de la Presidencia \n\n2. Red social X de las FFAA",
+      "link": "1. https://www.comunicacion.gob.ec/manifestantes-atacan-con-violencia-convoy-humanitario-liderado-por-noboa-y-cuerpo-diplomatico/\n\n2. https://x.com/FFAAECUADOR/status/1972371357221404675  \n\n\n3."
+    },
+    {
+      "id": 13,
+      "fecha_evento": "2025-09-29",
+      "ubicacion": "Pichincha",
+      "fuente": "1. ONU Derechos Humanos: https://acnudh.org/ecuador-onu-derechos-humanos-pide-dialogo-urgente-tras-muerte-durante-protesta/?utm\n\n2. Red soocial X de Mary Lawlor: https://x.com/MaryLawlorhrds/status/1972648033834950770 \n\n3.\n\n\n",
+      "fuente_primaria": "1. El Comercio\n\n2. Diario Expreso\n\n3. Primicias",
+      "link": "1. https://www.elcomercio.com/actualidad/politica/onu-insta-dialogo-urgente-ecuador-violencia-protestas-paro/?utm\n\n2. https://www.expreso.ec/actualidad/politica/la-onu-pide-iniciar-un-dialogo-urgente-en-ecuador-tras-la-muerte-de-un-manifestante-259017.html?utm\n\n3. https://www.primicias.ec/politica/gobierno-ecuador-daniel-noboa-paro-nacional-cotacachi-militares-protestas-terroristas-106204/?utm \n"
+    },
+    {
+      "id": 14,
+      "fecha_evento": "2025-10-01",
+      "ubicacion": "Pichincha",
+      "fuente": "1. Red social X de la CONAIE https://x.com/CONAIE_Ecuador/status/1973158178293506122?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1973158178293506122%7Ctwgr%5E7627aaedc628bac6d99ec7899b06f5cdd4b5289c%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.teleamazonas.com%2Factualidad%2Fnoticias%2Fecuador%2Fefrain-fuerez-primer-fallecido-paro-enterrado-parroquia-quiroga-cotacachi-103487%2F \n\n2. Red Social Facebook BN Periodismo: https://www.facebook.com/bnperiodismo/videos/pedro-granja-anunci%C3%B3-que-se-encuentra-en-curso-una-denuncia-penal-por-la-ejecuci/1501380134401960/ \n\n2. Ministerio de Defensa: https://www.defensa.gob.ec/wp-content/uploads/downloads/2021/03/COIP_act_feb-2021.pdf?utm_source=chatgpt.com  \n\n3. Radio Pichincha:. https://www.radiopichincha.com/jefe-del-comando-conjunto-de-las-ff-aa-sera-demandado-por-la-presunta-ejecucion-extrajudicial-de-efrain-fuerez/\n\n4. X de Radio Pichincha: https://x.com/radio_pichincha/status/1973767340996039114?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1973767340996039114%7Ctwgr%5Eacccb41fab541cd4990c25e4752e72c93b139bdb%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.radiopichincha.com%2Fjefe-del-comando-conjunto-de-las-ff-aa-sera-demandado-por-la-presunta-ejecucion-extrajudicial-de-efrain-fuerez%2F \n\n5.  https://www.radiopichincha.com/asesinato-efrain-fuerez-extralimitacion-acto-servicio-ejecucion-extrajudicial/ \n ",
+      "fuente_primaria": "",
+      "link": ""
+    },
+    {
+      "id": 15,
+      "fecha_evento": "2025-10-02",
+      "ubicacion": "Pichincha",
+      "fuente": "1. Primicias: https://www.primicias.ec/politica/daniel-noboa-decreto-feriado-ecuador-octubre2025-paro-nacional-106521/?utm\n\n2. Alianza de Derechos Humanos: https://alianzaddhh.org/wp-content/uploads/2025/10/Boletin-8-Alianza-DD.HH_.pdf?\n\n3. Ecuavisa: https://www.ecuavisa.com/la-noticia-a-fondo/paro-nacional-ecuador-imbabura-feriado-octubre-EA10234312?utm\n\n",
+      "fuente_primaria": "Secretaría General de Comunicación:  ",
+      "link": "https://x.com/ComunicacionEc/status/1973910898667642891"
+    },
+    {
+      "id": 16,
+      "fecha_evento": "2025-10-02",
+      "ubicacion": "Pichincha",
+      "fuente": "1. Red social X de la CONAIE: https://x.com/CONAIE_Ecuador/status/1973454395992908059/photo/1 \n\n2. Red social Facebook de la CONAIE: https://www.facebook.com/conaie.org/videos/consejo-ampliado-conair/736785416032629/?rdid=o28bpykItfOPDg6b \n\n3.  https://www.primicias.ec/politica/conaie-quito-consejo-acciones-paro-nacional-ecuador-106449/?utm\n\n4. ",
+      "fuente_primaria": "",
+      "link": ""
+    },
+    {
+      "id": 17,
+      "fecha_evento": "2025-10-03",
+      "ubicacion": "Imbabura",
+      "fuente": "1. Gk: https://gk.city/2025/10/03/economia-de-imbabura-impactada-por-paro-nacional-2025/\n\n2. La Hora: https://www.lahora.com.ec/imbaburacarchi/Imbabura-a-punto-del-colapso-por-el-paro-de-la-Conaie-20251002-0048.html\n\n3. Anmistía Internacional: https://www.amnesty.org/es/latest/news/2025/10/ecuador-alerta-por-represion-a-protestas-independencia-judicial-y-desapariciones-forzadas/",
+      "fuente_primaria": "1. El Comercio\n\n2. Red social del Ministerio del Interior de Ecuador\n\n3. Primicias",
+      "link": "1. https://www.elcomercio.com/actualidad/politica/detienen-exalcalde-guaranda-funcionarios-publicos-causa/ \n\n2. https://x.com/MinInteriorEc/status/1974588087050379283 \n\n3. https://www.primicias.ec/politica/ministerio-interior-contraloria-examen-fondos-publicos-paro-conaie-106658/ "
+    }
+  ]
+}
